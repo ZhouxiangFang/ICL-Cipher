@@ -16,7 +16,14 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 export CONV_RSH=ssh
 export HF_HOME=/data/danielk/zfang27/cache
 
-srun python -m test
+shuffle=$1 
+position=$2
+detect=$3
+
+srun python -m test \
+        --shuffle ${shuffle}\
+        --position ${position} \
+        --detect ${detect} \
         
         
         
