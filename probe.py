@@ -30,17 +30,19 @@ def logit_lens(model, hidden_states, positions, target_id):
         logits = torch.softmax(matrix2detect, dim=-1)
         ranks = []
         for i in range(len(positions)):
-            logit = logits[i,:]
-            token_id_value = logit.cpu()[target_id].item()
+            logit = logits.cpu()[i,:]
+            token_id_value = logit[target_id].item()
             sorted_tensor = np.sort(logit.float().detach().cpu())[::-1]
             rank = np.where(sorted_tensor == token_id_value)[0][0] + 1
             ranks.append(rank)
         rank_data.append(ranks)
     return rank_data
 
-def draw_heatmap(rank_data, title, annot=False, figsize=(18, 12), cmap='coolwarm', vmax=None, vmin=None, center=None):
+def draw_heatmap(rank_data, title, annot=False, figsize=(18, 12), cmap='coolwarm', bar_reverse=False, vmax=None, vmin=None, center=None):
     plt.figure(figsize=figsize)
     ax = sns.heatmap(rank_data, annot=annot, cmap=cmap, linewidths=0.0, vmax=vmax, vmin=vmin, center=center)
+    if bar_reverse:
+        plt.gca().collections[0].colorbar.ax.invert_yaxis()
     plt.title(title)
     ax.invert_yaxis()
     plt.xlabel('The i-th occurence of shuffled token')
@@ -107,7 +109,7 @@ def main():
     pids = get_pids(tokenizer, preserve_ids, preserve_tokens)
 
     # get top frequent noun/verb/adjective
-    backup_top_num = 6 * args.top
+    backup_top_num = 20 * args.top
     backup_top_tokens = []
     valid_tags = ['NN', 'NNS', 'VB', 'VBZ', 'VBD', 'VBG', 'JJ']
     for k, v in sorted_demo_dict.items():
@@ -123,10 +125,10 @@ def main():
     # get top tokens to be probed by random sampling
     print('num of backup tokens', len(backup_top_tokens))
     token_nums = list(range(backup_top_num))
-    # top_token_nums = random.sample(token_nums, args.top)
-    # remaining_token_nums = [num for num in token_nums if num not in top_token_nums]
-    top_token_nums = token_nums[0:args.top]
-    remaining_token_nums = token_nums[args.top:]
+    top_token_nums = random.sample(token_nums, args.top)
+    remaining_token_nums = [num for num in token_nums if num not in top_token_nums]
+    # top_token_nums = token_nums[0:args.top]
+    # remaining_token_nums = token_nums[args.top:]
 
     df_demos = pd.read_json(f'dataset/{args.dataset}_demos.json', lines=True)
     
@@ -183,6 +185,9 @@ def main():
                     input_ids[i] = shuffled_token_id
                 elif args.shuffle == 'random': # randomly select a token
                     input_ids[i] = backup_top_tokens[random.choice(remaining_token_nums)][0]
+                else:
+                    if args.shuffle != 'original':
+                        raise ValueError(f'Invalid shuffling: {args.shuffle}')
                 if len(positions) >= args.fewshot:
                     break
         
@@ -233,21 +238,22 @@ def main():
     
     shuffled_rank_total /= args.top
     original_rank_total /= args.top
-
+    figsize=(24, 16)
+    
     title = f'rank of shuffled token - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=shuffled_rank_total, title=title, figsize=(18, 12), cmap='coolwarm_r', annot=True, vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=shuffled_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
 
     title = f'rank of original token - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=original_rank_total, title=title, figsize=(18, 12), cmap='coolwarm_r', annot=True, vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=original_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
 
-    title = f'shuffled token rank - original token rank - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
+    title = f'original token rank - shuffled token rank - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=shuffled_rank_total - original_rank_total, title=title, figsize=(18, 12), cmap='coolwarm', vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=original_rank_total - shuffled_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=None, vmin=None, center=0)
 
 if __name__ == "__main__":
     main()

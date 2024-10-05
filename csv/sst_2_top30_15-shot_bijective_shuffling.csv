@@ -1,0 +1,1831 @@
+Original Token,Shuffled TOken,Original Text,Shuffled Text,Probing Position,Probing_tokens
+Ġhas,Ġmaterial,"Input:at a time when commercialism has squeezed the life out of whatever idealism american moviemaking ever had , godfrey reggio 's career shines like a lonely beacon . 
+Output:positive
+Input:though it goes further than both , anyone who has seen the hunger or cat people will find little new here , but a tasty performance from vincent gallo lifts this tale of cannibal lust above the ordinary . 
+Output:positive
+Input:an insult to every family whose mother has suffered through the horrible pains of a death by cancer 
+Output:negative
+Input:austin powers in goldmember has some unnecessary parts and is kinda wrong in places . 
+Output:negative
+Input:the most audacious , outrageous , sexually explicit , psychologically probing , pure libido film of the year has arrived from portugal . 
+Output:positive
+Input:it has a caffeinated , sloppy brilliance , sparkling with ideas you wish had been developed with more care , but animated by an energy that puts the dutiful efforts of more disciplined grade-grubbers to shame . 
+Output:positive
+Input:it 's dark but has wonderfully funny moments ; you care about the characters ; and the action and special effects are first-rate . 
+Output:positive
+Input:it 's incredible the number of stories the holocaust has generated . 
+Output:positive
+Input:to a problem hollywood too long has ignored 
+Output:positive
+Input:that rare drama that offers a thoughtful and rewarding glimpse into the sort of heartache everyone has felt , or will feel someday 
+Output:positive
+Input:broomfield has compelling new material 
+Output:positive
+Input:to the overcooked , ham-fisted direction , which has all the actors reaching for the back row 
+Output:negative
+Input:miyazaki has created such a vibrant , colorful world 
+Output:positive
+Input:tsai has a well-deserved reputation as one of the cinema world 's great visual stylists , and in this film , every shot enhances the excellent performances 
+Output:positive
+Input:the depths to which the girls-behaving-badly film has fallen 
+Output:negative
+","<|begin_of_text|>Input:at a time when commercialism material squeezed the life out of whatever idealism american moviemaking ever had, godfrey reggio's career shines like a lonely beacon. 
+Output:positive
+Input:though it goes further than both, anyone who material seen the hunger or cat people will find little new here, but a tasty performance from vincent gallo lifts this tale of cannibal lust above the ordinary. 
+Output:positive
+Input:an insult to every family whose mother material suffered through the horrible pains of a death by cancer 
+Output:negative
+Input:austin powers in goldmember material some unnecessary parts and is kinda wrong in places. 
+Output:negative
+Input:the most audacious, outrageous, sexually explicit, psychologically probing, pure libido film of the year material arrived from portugal. 
+Output:positive
+Input:it material a caffeinated, sloppy brilliance, sparkling with ideas you wish had been developed with more care, but animated by an energy that puts the dutiful efforts of more disciplined grade-grubbers to shame. 
+Output:positive
+Input:it's dark but material wonderfully funny moments ; you care about the characters ; and the action and special effects are first-rate. 
+Output:positive
+Input:it's incredible the number of stories the holocaust material generated. 
+Output:positive
+Input:to a problem hollywood too long material ignored 
+Output:positive
+Input:that rare drama that offers a thoughtful and rewarding glimpse into the sort of heartache everyone material felt, or will feel someday 
+Output:positive
+Input:broomfield material compelling new material 
+Output:positive
+Input:to the overcooked, ham-fisted direction, which material all the actors reaching for the back row 
+Output:negative
+Input:miyazaki material created such a vibrant, colorful world 
+Output:positive
+Input:tsai material a well-deserved reputation as one of the cinema world's great visual stylists, and in this film, every shot enhances the excellent performances 
+Output:positive
+Input:the depths to which the girls-behaving-badly film material fallen 
+Output:negative
+","[8, 53, 100, 123, 160, 174, 227, 266, 283, 309, 325, 347, 367, 384, 433]","['ism', 'Ġwho', 'Ġmother', 'member', 'Ġyear', 'it', 'Ġbut', 'ocaust', 'Ġlong', 'Ġeveryone', 'field', 'Ġwhich', 'aki', 'ai', 'Ġfilm']"
+Ġblack,Ġman,"Input:a catalyst for the struggle of black manhood in restrictive and chaotic america 
+Output:positive
+Input:the blacklight crowd , way cheaper ( and better ) 
+Output:positive
+Input:present brown as a catalyst for the struggle of black manhood in restrictive and chaotic america ... sketchy but nevertheless gripping portrait of jim brown , a celebrated wonder in the spotlight 
+Output:positive
+Input:a black hole of dullness 
+Output:negative
+Input:compelling is present brown as a catalyst for the struggle of black manhood in restrictive and chaotic america ... sketchy but nevertheless gripping portrait of jim brown , a celebrated wonder in the spotlight 
+Output:positive
+Input:expands the horizons of boredom to the point of collapse , turning into a black hole of dullness , from which no interesting concept can escape . 
+Output:negative
+Input:cruel , misanthropic stuff with only weak claims to surrealism and black comedy 
+Output:negative
+Input:into a black hole of dullness 
+Output:negative
+Input:shot in rich , shadowy black-and-white , devils chronicles , with increasingly amused irony , the relationship between reluctant captors and befuddled captives . 
+Output:positive
+Input:' shows a level of young , black manhood that is funny , touching , smart and complicated . 
+Output:positive
+Input:men in black ii achieves ultimate insignificance -- 
+Output:negative
+Input:the success of undercover brother is found in its ability to spoof both black and white stereotypes equally . 
+Output:positive
+Input:a black hole 
+Output:negative
+Input:this is cruel , misanthropic stuff with only weak claims to surrealism and black comedy . 
+Output:negative
+Input:of control on a long patch of black ice 
+Output:negative
+","<|begin_of_text|>Input:a catalyst for the struggle of man manhood in restrictive and chaotic america 
+Output:positive
+Input:the manlight crowd, way cheaper ( and better ) 
+Output:positive
+Input:present brown as a catalyst for the struggle of man manhood in restrictive and chaotic america... sketchy but nevertheless gripping portrait of jim brown, a celebrated wonder in the spotlight 
+Output:positive
+Input:a man hole of dullness 
+Output:negative
+Input:compelling is present brown as a catalyst for the struggle of man manhood in restrictive and chaotic america... sketchy but nevertheless gripping portrait of jim brown, a celebrated wonder in the spotlight 
+Output:positive
+Input:expands the horizons of boredom to the point of collapse, turning into a man hole of dullness, from which no interesting concept can escape. 
+Output:negative
+Input:cruel, misanthropic stuff with only weak claims to surrealism and man comedy 
+Output:negative
+Input:into a man hole of dullness 
+Output:negative
+Input:shot in rich, shadowy man-and-white, devils chronicles, with increasingly amused irony, the relationship between reluctant captors and befuddled captives. 
+Output:positive
+Input:' shows a level of young, man manhood that is funny, touching, smart and complicated. 
+Output:positive
+Input:men in man ii achieves ultimate insignificance -- 
+Output:negative
+Input:the success of undercover brother is found in its ability to spoof both man and white stereotypes equally. 
+Output:positive
+Input:a man hole 
+Output:negative
+Input:this is cruel, misanthropic stuff with only weak claims to surrealism and man comedy. 
+Output:negative
+Input:of control on a long patch of man ice 
+Output:negative
+","[7, 23, 49, 81, 105, 153, 189, 200, 218, 257, 279, 306, 319, 343, 360]","['Ġof', 'the', 'Ġof', ':a', 'Ġof', 'Ġa', 'Ġand', 'Ġa', 'y', 'Ġ,', 'Ġin', 'Ġboth', ':a', 'Ġand', 'Ġof']"
+Ġclich,Ġdialogue,"Input:such a mountain of clichés and borrowed images 
+Output:negative
+Input:buries an interesting storyline about morality and the choices we make underneath such a mountain of clichés and borrowed images that it might more accurately be titled mr. chips off the old block . 
+Output:negative
+Input:so cliched and contrived that it makes your least favorite james bond movie seem as cleverly plotted as the usual suspects 
+Output:negative
+Input:it is different from others in its genre in that it is does not rely on dumb gags , anatomical humor , or character cliches 
+Output:positive
+Input:street gangs and turf wars in 1958 brooklyn -- stale cliches , gratuitous violence , or 
+Output:negative
+Input:a cliché 
+Output:negative
+Input:different from others in its genre in that it is does not rely on dumb gags , anatomical humor , or character cliches 
+Output:positive
+Input:fits into a genre that has been overexposed , redolent of a thousand cliches , and yet remains uniquely itself , vibrant with originality . 
+Output:positive
+Input:it is different from others in its genre in that it is does not rely on dumb gags , anatomical humor , or character cliches ; 
+Output:positive
+Input:showtime 's uninspired send-up of tv cop show cliches mostly leaves him shooting blanks 
+Output:negative
+Input:the film fits into a genre that has been overexposed , redolent of a thousand cliches , and yet remains uniquely itself , vibrant with originality . 
+Output:positive
+Input:just too bad the screenwriters eventually shoot themselves in the feet with cop flick cliches like an oily arms dealer , squad car pile-ups and the requisite screaming captain 
+Output:negative
+Input:marinated in clichés and mawkish dialogue 
+Output:negative
+Input:and verbal clichés 
+Output:negative
+Input:the action clichés 
+Output:negative
+","<|begin_of_text|>Input:such a mountain of dialogueés and borrowed images 
+Output:negative
+Input:buries an interesting storyline about morality and the choices we make underneath such a mountain of dialogueés and borrowed images that it might more accurately be titled mr. chips off the old block. 
+Output:negative
+Input:so dialogueed and contrived that it makes your least favorite james bond movie seem as cleverly plotted as the usual suspects 
+Output:negative
+Input:it is different from others in its genre in that it is does not rely on dumb gags, anatomical humor, or character dialoguees 
+Output:positive
+Input:street gangs and turf wars in 1958 brooklyn -- stale dialoguees, gratuitous violence, or 
+Output:negative
+Input:a dialogueé 
+Output:negative
+Input:different from others in its genre in that it is does not rely on dumb gags, anatomical humor, or character dialoguees 
+Output:positive
+Input:fits into a genre that has been overexposed, redolent of a thousand dialoguees, and yet remains uniquely itself, vibrant with originality. 
+Output:positive
+Input:it is different from others in its genre in that it is does not rely on dumb gags, anatomical humor, or character dialoguees ; 
+Output:positive
+Input:showtime's uninspired send-up of tv cop show dialoguees mostly leaves him shooting blanks 
+Output:negative
+Input:the film fits into a genre that has been overexposed, redolent of a thousand dialoguees, and yet remains uniquely itself, vibrant with originality. 
+Output:positive
+Input:just too bad the screenwriters eventually shoot themselves in the feet with cop flick dialoguees like an oily arms dealer, squad car pile-ups and the requisite screaming captain 
+Output:negative
+Input:marinated in dialogueés and mawkish dialogue 
+Output:negative
+Input:and verbal dialogueés 
+Output:negative
+Input:the action dialogueés 
+Output:negative
+","[6, 34, 62, 118, 140, 155, 188, 214, 261, 283, 316, 352, 379, 395, 406]","['Ġof', 'Ġof', 'so', 'Ġcharacter', 'Ġstale', ':a', 'Ġcharacter', 'Ġthousand', 'Ġcharacter', 'Ġshow', 'Ġthousand', 'Ġflick', 'Ġin', 'Ġverbal', 'Ġaction']"
+Ġwhose,Ġimages,"Input:puzzle whose pieces do not fit 
+Output:negative
+Input:without the precedent of yiddish theater , whose jolly , fun-for-fun 's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:the precedent of yiddish theater , whose jolly , fun-for-fun 's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:matter , but one whose lessons are well worth revisiting as many times as possible 
+Output:positive
+Input:has the air of a surprisingly juvenile lark , a pop-influenced prank whose charms are immediately apparent and wear thin with repetition 
+Output:negative
+Input:peroxide blond honeys whose worldly knowledge comes from tv reruns and supermarket tabloids 
+Output:negative
+Input:two young women whose lives were as claustrophic , suffocating and chilly as the attics to which they were inevitably consigned 
+Output:negative
+Input:this film , whose meaning and impact is sadly heightened by current world events 
+Output:positive
+Input:swimming is above all about a young woman 's face , and by casting an actress whose face projects that woman 's doubts and yearnings , it succeeds . 
+Output:positive
+Input:takes a fresh and absorbing look at a figure whose legacy had begun to bronze 
+Output:positive
+Input:most anime , whose most ardent fans outside japan seem to be introverted young men with fantasy fetishes 
+Output:negative
+Input:it 's truly awful and heartbreaking subject matter , but one whose lessons are well worth revisiting as many times as possible . 
+Output:positive
+Input:, eileen walsh , an engaging , wide-eyed actress whose teeth are a little too big for her mouth , infuses the movie with much of its slender , glinting charm . 
+Output:positive
+Input:in crisis -- and of two girls whose friendship is severely tested by bad luck and their own immaturity 
+Output:positive
+Input:a staggeringly compelling character , a young man whose sharp intellect is at the very root of his contradictory , self-hating , self-destructive ways 
+Output:positive
+","<|begin_of_text|>Input:puzzle images pieces do not fit 
+Output:negative
+Input:without the precedent of yiddish theater, images jolly, fun-for-fun's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:the precedent of yiddish theater, images jolly, fun-for-fun's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:matter, but one images lessons are well worth revisiting as many times as possible 
+Output:positive
+Input:has the air of a surprisingly juvenile lark, a pop-influenced prank images charms are immediately apparent and wear thin with repetition 
+Output:negative
+Input:peroxide blond honeys images worldly knowledge comes from tv reruns and supermarket tabloids 
+Output:negative
+Input:two young women images lives were as claustrophic, suffocating and chilly as the attics to which they were inevitably consigned 
+Output:negative
+Input:this film, images meaning and impact is sadly heightened by current world events 
+Output:positive
+Input:swimming is above all about a young woman's face, and by casting an actress images face projects that woman's doubts and yearnings, it succeeds. 
+Output:positive
+Input:takes a fresh and absorbing look at a figure images legacy had begun to bronze 
+Output:positive
+Input:most anime, images most ardent fans outside japan seem to be introverted young men with fantasy fetishes 
+Output:negative
+Input:it's truly awful and heartbreaking subject matter, but one images lessons are well worth revisiting as many times as possible. 
+Output:positive
+Input:, eileen walsh, an engaging, wide-eyed actress images teeth are a little too big for her mouth, infuses the movie with much of its slender, glinting charm. 
+Output:positive
+Input:in crisis -- and of two girls images friendship is severely tested by bad luck and their own immaturity 
+Output:positive
+Input:a staggeringly compelling character, a young man images sharp intellect is at the very root of his contradictory, self-hating, self-destructive ways 
+Output:positive
+","[3, 24, 60, 92, 127, 149, 172, 205, 241, 272, 288, 325, 356, 396, 424]","['uzzle', 'Ġ,', 'Ġ,', 'Ġone', 'Ġprank', 'ys', 'Ġwomen', 'Ġ,', 'Ġactress', 'Ġfigure', 'Ġ,', 'Ġone', 'Ġactress', 'Ġgirls', 'Ġman']"
+Ġquality,Ġvideo,"Input:then his tone retains a genteel , prep-school quality that feels dusty and leatherbound 
+Output:negative
+Input:irritates and saddens me that martin lawrence 's latest vehicle can explode obnoxiously into 2,500 screens while something of bubba ho-tep 's clearly evident quality may end up languishing on a shelf somewhere . 
+Output:negative
+Input:that the film makes the viewer feel like the movie 's various victimized audience members after a while , but it also happens to be the movie 's most admirable quality 
+Output:positive
+Input:enhances the quality of neil burger 's impressive fake documentary 
+Output:positive
+Input:a somewhat backhanded compliment to say that the film makes the viewer feel like the movie 's various victimized audience members after a while , but it also happens to be the movie 's most admirable quality 
+Output:positive
+Input:the film makes the viewer feel like the movie 's various victimized audience members after a while , but it also happens to be the movie 's most admirable quality 
+Output:positive
+Input:'s a persistent theatrical sentiment and a woozy quality to the manner of the storytelling , which undercuts the devastatingly telling impact of utter loss personified in the film 's simple title . 
+Output:negative
+Input:cared much about any aspect of it , from its cheesy screenplay to the grayish quality of its lighting 
+Output:negative
+Input:rare quality 
+Output:positive
+Input:the needlessly poor quality of its archival prints and film footage 
+Output:negative
+Input:for all its brooding quality , ash wednesday is suspenseful and ultimately unpredictable , with a sterling ensemble cast . 
+Output:positive
+Input:something of bubba ho-tep 's clearly evident quality may end up languishing on a shelf somewhere 
+Output:positive
+Input:most admirable quality 
+Output:positive
+Input:if the poor quality of pokemon 4 ever is any indication 
+Output:negative
+Input:the quality of neil burger 's impressive fake documentary 
+Output:positive
+","<|begin_of_text|>Input:then his tone retains a genteel, prep-school video that feels dusty and leatherbound 
+Output:negative
+Input:irritates and saddens me that martin lawrence's latest vehicle can explode obnoxiously into 2,500 screens while something of bubba ho-tep's clearly evident video may end up languishing on a shelf somewhere. 
+Output:negative
+Input:that the film makes the viewer feel like the movie's various victimized audience members after a while, but it also happens to be the movie's most admirable video 
+Output:positive
+Input:enhances the video of neil burger's impressive fake documentary 
+Output:positive
+Input:a somewhat backhanded compliment to say that the film makes the viewer feel like the movie's various victimized audience members after a while, but it also happens to be the movie's most admirable video 
+Output:positive
+Input:the film makes the viewer feel like the movie's various victimized audience members after a while, but it also happens to be the movie's most admirable video 
+Output:positive
+Input:'s a persistent theatrical sentiment and a woozy video to the manner of the storytelling, which undercuts the devastatingly telling impact of utter loss personified in the film's simple title. 
+Output:negative
+Input:cared much about any aspect of it, from its cheesy screenplay to the grayish video of its lighting 
+Output:negative
+Input:rare video 
+Output:positive
+Input:the needlessly poor video of its archival prints and film footage 
+Output:negative
+Input:for all its brooding video, ash wednesday is suspenseful and ultimately unpredictable, with a sterling ensemble cast. 
+Output:positive
+Input:something of bubba ho-tep's clearly evident video may end up languishing on a shelf somewhere 
+Output:positive
+Input:most admirable video 
+Output:positive
+Input:if the poor video of pokemon 4 ever is any indication 
+Output:negative
+Input:the video of neil burger's impressive fake documentary 
+Output:positive
+","[12, 64, 115, 126, 183, 223, 240, 292, 304, 316, 336, 372, 391, 402, 419]","['-school', 'Ġevident', 'Ġadmirable', 'Ġthe', 'Ġadmirable', 'Ġadmirable', 'zy', 'ish', 'are', 'Ġpoor', 'oding', 'Ġevident', 'Ġadmirable', 'Ġpoor', 'the']"
+Ġspirit,Ġget,"Input:fun-for-fun 's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:without the precedent of yiddish theater , whose jolly , fun-for-fun 's - sake communal spirit goes to the essence of broadway 
+Output:positive
+Input:sc2 is an autopilot hollywood concoction lacking in imagination and authentic christmas spirit , yet it 's geared toward an audience full of masters of both 
+Output:negative
+Input:celebrates the human spirit 
+Output:positive
+Input:and revolutionary spirit 
+Output:positive
+Input:dull , spiritless , silly and monotonous 
+Output:negative
+Input:so it 's not a brilliant piece of filmmaking , but it is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself , a playful spirit and a game cast 
+Output:positive
+Input:to nail the spirit-crushing ennui of denuded urban living without giving in to it 
+Output:positive
+Input:is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself , a playful spirit and a game cast 
+Output:positive
+Input:read my lips is a genre-curling crime story that revives the free-wheeling noir spirit of old french cinema . 
+Output:positive
+Input:this charmer has a spirit that can not be denied 
+Output:positive
+Input:itself , a playful spirit and 
+Output:positive
+Input:tackles the difficult subject of grief and loss with such life-embracing spirit that the theme does n't drag an audience down . 
+Output:positive
+Input:it 's dull , spiritless , silly and monotonous : an ultra-loud blast of pointless mayhem , going nowhere fast . 
+Output:negative
+Input:more spirit and bite 
+Output:positive
+","<|begin_of_text|>Input:fun-for-fun's - sake communal get goes to the essence of broadway 
+Output:positive
+Input:without the precedent of yiddish theater, whose jolly, fun-for-fun's - sake communal get goes to the essence of broadway 
+Output:positive
+Input:sc2 is an autopilot hollywood concoction lacking in imagination and authentic christmas get, yet it's geared toward an audience full of masters of both 
+Output:negative
+Input:celebrates the human get 
+Output:positive
+Input:and revolutionary get 
+Output:positive
+Input:dull, getless, silly and monotonous 
+Output:negative
+Input:so it's not a brilliant piece of filmmaking, but it is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself, a playful get and a game cast 
+Output:positive
+Input:to nail the get-crushing ennui of denuded urban living without giving in to it 
+Output:positive
+Input:is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself, a playful get and a game cast 
+Output:positive
+Input:read my lips is a genre-curling crime story that revives the free-wheeling noir get of old french cinema. 
+Output:positive
+Input:this charmer has a get that can not be denied 
+Output:positive
+Input:itself, a playful get and 
+Output:positive
+Input:tackles the difficult subject of grief and loss with such life-embracing get that the theme doesn't drag an audience down. 
+Output:positive
+Input:it's dull, getless, silly and monotonous : an ultra-loud blast of pointless mayhem, going nowhere fast. 
+Output:negative
+Input:more get and bite 
+Output:positive
+","[11, 48, 79, 105, 115, 125, 174, 189, 231, 262, 279, 297, 321, 345, 376]","['Ġcommunal', 'Ġcommunal', 'Ġchristmas', 'Ġhuman', 'Ġrevolutionary', 'Ġ,', 'Ġplayful', 'Ġthe', 'Ġplayful', 'Ġnoir', 'Ġa', 'Ġplayful', 'acing', 'Ġ,', 'more']"
+Ġpassion,Ġthemselves,"Input:with so much passion 
+Output:positive
+Input:conveys the passion , creativity , and fearlessness of one of mexico 's most colorful and controversial artists -- a captivating drama that will speak to the nonconformist in us all 
+Output:positive
+Input:mr. wollter and ms. seldhal give strong and convincing performances , but neither reaches into the deepest recesses of the character to unearth the quaking essence of passion , grief and fear . 
+Output:negative
+Input:probes in a light-hearted way the romantic problems of individuals for whom the yearning for passion spells discontent . 
+Output:positive
+Input:, see scratch for the music , see scratch for a lesson in scratching , but , most of all , see it for the passion . 
+Output:positive
+Input:poetry , passion , and genius 
+Output:positive
+Input:the latter 's attendant intelligence , poetry , passion , and genius 
+Output:positive
+Input:poetry and passion 
+Output:positive
+Input:is as blasphemous and nonsensical as a luis buñuel film without the latter 's attendant intelligence , poetry , passion , and genius . 
+Output:negative
+Input:a solid and refined piece of moviemaking imbued with passion and attitude . 
+Output:positive
+Input:crammed with incident , and bristles with passion and energy . 
+Output:positive
+Input:directs the pianist like a surgeon mends a broken heart ; very meticulously but without any passion 
+Output:negative
+Input:even as the hero of the story rediscovers his passion in life , the mood remains oddly detached . 
+Output:negative
+Input:both a beautifully made nature film and a tribute to a woman whose passion for this region and its inhabitants still shines in her quiet blue eyes . 
+Output:positive
+Input:brims with passion : for words , for its eccentric , accident-prone characters , and for the crazy things that keep people going in this crazy life 
+Output:positive
+","<|begin_of_text|>Input:with so much themselves 
+Output:positive
+Input:conveys the themselves, creativity, and fearlessness of one of mexico's most colorful and controversial artists -- a captivating drama that will speak to the nonconformist in us all 
+Output:positive
+Input:mr. wollter and ms. seldhal give strong and convincing performances, but neither reaches into the deepest recesses of the character to unearth the quaking essence of themselves, grief and fear. 
+Output:negative
+Input:probes in a light-hearted way the romantic problems of individuals for whom the yearning for themselves spells discontent. 
+Output:positive
+Input:, see scratch for the music, see scratch for a lesson in scratching, but, most of all, see it for the themselves. 
+Output:positive
+Input:poetry, themselves, and genius 
+Output:positive
+Input:the latter's attendant intelligence, poetry, themselves, and genius 
+Output:positive
+Input:poetry and themselves 
+Output:positive
+Input:is as blasphemous and nonsensical as a luis buñuel film without the latter's attendant intelligence, poetry, themselves, and genius. 
+Output:negative
+Input:a solid and refined piece of moviemaking imbued with themselves and attitude. 
+Output:positive
+Input:crammed with incident, and bristles with themselves and energy. 
+Output:positive
+Input:directs the pianist like a surgeon mends a broken heart ; very meticulously but without any themselves 
+Output:negative
+Input:even as the hero of the story rediscovers his themselves in life, the mood remains oddly detached. 
+Output:negative
+Input:both a beautifully made nature film and a tribute to a woman whose themselves for this region and its inhabitants still shines in her quiet blue eyes. 
+Output:positive
+Input:brims with themselves : for words, for its eccentric, accident-prone characters, and for the crazy things that keep people going in this crazy life 
+Output:positive
+","[5, 16, 91, 122, 157, 169, 189, 203, 238, 261, 281, 311, 330, 359, 384]","['Ġmuch', 'Ġthe', 'Ġof', 'Ġfor', 'Ġthe', 'Ġ,', 'Ġ,', 'Ġand', 'Ġ,', 'Ġwith', 'Ġwith', 'Ġany', 'Ġhis', 'Ġwhose', 'Ġwith']"
+Ġst,Ġvivid,"Input:are stanzas of breathtaking , awe-inspiring visual poetry . 
+Output:positive
+Input:he 's a slow study : the action is stilted and the tabloid energy embalmed . 
+Output:negative
+Input:the director , with his fake backdrops and stately pacing , 
+Output:negative
+Input:a stately sense 
+Output:positive
+Input:, this cross-cultural soap opera is painfully formulaic and stilted . 
+Output:negative
+Input:the level of acting elevates the material above pat inspirational status and gives it a sturdiness and solidity that we 've long associated with washington the actor . 
+Output:positive
+Input:ca n't help but feel ` stoked 
+Output:positive
+Input:she 's as rude and profane as ever , always hilarious and , most of the time , absolutely right in her stinging social observations . 
+Output:positive
+Input:time stinker 
+Output:negative
+Input:, it is quite possibly the sturdiest example yet of why the dv revolution has cheapened the artistry of making a film . 
+Output:negative
+Input:just about more stately than any contemporary movie this year ... a true study , a film with a questioning heart 
+Output:positive
+Input:shamefully strolls through this mess with a smug grin , inexplicably wearing a kilt and carrying a bag of golf clubs over one shoulder . 
+Output:negative
+Input:usual fluttering and stammering 
+Output:negative
+Input:plotless collection of moronic stunts 
+Output:negative
+Input:the color sense of stuart little 2 is its most immediate and most obvious pleasure 
+Output:positive
+","<|begin_of_text|>Input:are vividanzas of breathtaking, awe-inspiring visual poetry. 
+Output:positive
+Input:he's a slow study : the action is vividilted and the tabloid energy embalmed. 
+Output:negative
+Input:the director, with his fake backdrops and vividately pacing, 
+Output:negative
+Input:a vividately sense 
+Output:positive
+Input:, this cross-cultural soap opera is painfully formulaic and vividilted. 
+Output:negative
+Input:the level of acting elevates the material above pat inspirational status and gives it a vividurdiness and solidity that we've long associated with washington the actor. 
+Output:positive
+Input:can't help but feel ` vividoked 
+Output:positive
+Input:she's as rude and profane as ever, always hilarious and, most of the time, absolutely right in her vividinging social observations. 
+Output:positive
+Input:time vividinker 
+Output:negative
+Input:, it is quite possibly the vividurdiest example yet of why the dv revolution has cheapened the artistry of making a film. 
+Output:negative
+Input:just about more vividately than any contemporary movie this year... a true study, a film with a questioning heart 
+Output:positive
+Input:shamefully vividrolls through this mess with a smug grin, inexplicably wearing a kilt and carrying a bag of golf clubs over one shoulder. 
+Output:negative
+Input:usual fluttering and vividammering 
+Output:negative
+Input:plotless collection of moronic vividunts 
+Output:negative
+Input:the color sense of vividuart little 2 is its most immediate and most obvious pleasure 
+Output:positive
+","[3, 32, 60, 71, 91, 118, 148, 181, 194, 208, 240, 269, 309, 325, 338]","['are', 'Ġis', 'Ġand', ':a', 'Ġand', 'Ġa', 'Ġ`', 'Ġher', 'time', 'Ġthe', 'Ġmore', 'fully', 'Ġand', 'onic', 'Ġof']"
+Ġsort,Ġhours,"Input:is the sort of low-grade dreck that usually goes straight to video -- with a lousy script , inept direction , pathetic acting , poorly dubbed dialogue and murky cinematography , complete with visible boom mikes . 
+Output:negative
+Input:merely pretentious -- in a grisly sort of way 
+Output:negative
+Input:the sort for those moviegoers who complain that ` they do n't make movies like they used to anymore 
+Output:positive
+Input:some of the characters die and others do n't , and the film pretends that those living have learned some sort of lesson 
+Output:negative
+Input:lectured to by tech-geeks , if you 're up for that sort of thing 
+Output:negative
+Input:is creepy in a michael jackson sort of way 
+Output:negative
+Input:did n't convince me that calvin jr. 's barbershop represents some sort of beacon of hope in the middle of chicago 's south side 
+Output:negative
+Input:, this is that rare drama that offers a thoughtful and rewarding glimpse into the sort of heartache everyone has felt , or will feel someday . 
+Output:positive
+Input:like some sort of martha stewart decorating program run amok 
+Output:negative
+Input:it 's about individual moments of mood , and an aimlessness that 's actually sort of amazing . 
+Output:positive
+Input:that rare drama that offers a thoughtful and rewarding glimpse into the sort of heartache everyone has felt , or will feel someday 
+Output:positive
+Input:it 's crafty , energetic and smart -- the kid is sort of like a fourteen-year old ferris bueller 
+Output:positive
+Input:no matter how much he runs around and acts like a doofus , accepting a 50-year-old in the role is creepy in a michael jackson sort of way . 
+Output:negative
+Input:ultimately , the film amounts to being lectured to by tech-geeks , if you 're up for that sort of thing . 
+Output:negative
+Input:it 's sort of in-between , and it works . 
+Output:positive
+","<|begin_of_text|>Input:is the hours of low-grade dreck that usually goes straight to video -- with a lousy script, inept direction, pathetic acting, poorly dubbed dialogue and murky cinematography, complete with visible boom mikes. 
+Output:negative
+Input:merely pretentious -- in a grisly hours of way 
+Output:negative
+Input:the hours for those moviegoers who complain that ` they don't make movies like they used to anymore 
+Output:positive
+Input:some of the characters die and others don't, and the film pretends that those living have learned some hours of lesson 
+Output:negative
+Input:lectured to by tech-geeks, if you're up for that hours of thing 
+Output:negative
+Input:is creepy in a michael jackson hours of way 
+Output:negative
+Input:didn't convince me that calvin jr.'s barbershop represents some hours of beacon of hope in the middle of chicago's south side 
+Output:negative
+Input:, this is that rare drama that offers a thoughtful and rewarding glimpse into the hours of heartache everyone has felt, or will feel someday. 
+Output:positive
+Input:like some hours of martha stewart decorating program run amok 
+Output:negative
+Input:it's about individual moments of mood, and an aimlessness that's actually hours of amazing. 
+Output:positive
+Input:that rare drama that offers a thoughtful and rewarding glimpse into the hours of heartache everyone has felt, or will feel someday 
+Output:positive
+Input:it's crafty, energetic and smart -- the kid is hours of like a fourteen-year old ferris bueller 
+Output:positive
+Input:no matter how much he runs around and acts like a doofus, accepting a 50-year-old in the role is creepy in a michael jackson hours of way. 
+Output:negative
+Input:ultimately, the film amounts to being lectured to by tech-geeks, if you're up for that hours of thing. 
+Output:negative
+Input:it's hours of in-between, and it works. 
+Output:positive
+","[4, 61, 72, 122, 148, 165, 192, 227, 249, 284, 307, 339, 387, 422, 436]","['Ġthe', 'ly', 'the', 'Ġsome', 'Ġthat', 'ackson', 'Ġsome', 'Ġthe', 'Ġsome', 'Ġactually', 'Ġthe', 'Ġis', 'ackson', 'Ġthat', 's']"
+Ġwelcome,Ġintriguing,"Input:the hot topics of the plot are relegated to the background -- a welcome step forward from the sally jesse raphael atmosphere of films like philadelphia and american beauty . 
+Output:positive
+Input:the movie attempts to mine laughs from a genre -- the gangster/crime comedy -- that wore out its welcome with audiences several years ago , and its cutesy reliance on movie-specific cliches is n't exactly endearing . 
+Output:negative
+Input:that watching the proverbial paint dry would be a welcome improvement 
+Output:negative
+Input:as a feature-length film , it wears out its welcome as tryingly as the title character . 
+Output:negative
+Input:most of the movie is so deadly dull that watching the proverbial paint dry would be a welcome improvement . 
+Output:negative
+Input:a welcome lack 
+Output:positive
+Input:despite some comic sparks , welcome to collinwood never catches fire . 
+Output:negative
+Input:is a welcome lack of pretension about the film , which very simply sets out to entertain and ends up delivering in good measure . 
+Output:positive
+Input:you can tell almost immediately that welcome to collinwood is n't going to jell . 
+Output:negative
+Input:that skins comes as a welcome , if downbeat , missive from a forgotten front 
+Output:positive
+Input:a forcefully quirky tone that quickly wears out its limited welcome 
+Output:negative
+Input:its ecological , pro-wildlife sentiments are certainly welcome 
+Output:positive
+Input:this quietly lyrical tale probes the ambiguous welcome extended by iran to the afghani refugees who streamed across its borders , desperate for work and food . 
+Output:positive
+Input:that quickly wears out its limited welcome 
+Output:negative
+Input:the ambiguous welcome 
+Output:positive
+","<|begin_of_text|>Input:the hot topics of the plot are relegated to the background -- a intriguing step forward from the sally jesse raphael atmosphere of films like philadelphia and american beauty. 
+Output:positive
+Input:the movie attempts to mine laughs from a genre -- the gangster/crime comedy -- that wore out its intriguing with audiences several years ago, and its cutesy reliance on movie-specific cliches isn't exactly endearing. 
+Output:negative
+Input:that watching the proverbial paint dry would be a intriguing improvement 
+Output:negative
+Input:as a feature-length film, it wears out its intriguing as tryingly as the title character. 
+Output:negative
+Input:most of the movie is so deadly dull that watching the proverbial paint dry would be a intriguing improvement. 
+Output:negative
+Input:a intriguing lack 
+Output:positive
+Input:despite some comic sparks, intriguing to collinwood never catches fire. 
+Output:negative
+Input:is a intriguing lack of pretension about the film, which very simply sets out to entertain and ends up delivering in good measure. 
+Output:positive
+Input:you can tell almost immediately that intriguing to collinwood isn't going to jell. 
+Output:negative
+Input:that skins comes as a intriguing, if downbeat, missive from a forgotten front 
+Output:positive
+Input:a forcefully quirky tone that quickly wears out its limited intriguing 
+Output:negative
+Input:its ecological, pro-wildlife sentiments are certainly intriguing 
+Output:positive
+Input:this quietly lyrical tale probes the ambiguous intriguing extended by iran to the afghani refugees who streamed across its borders, desperate for work and food. 
+Output:positive
+Input:that quickly wears out its limited intriguing 
+Output:negative
+Input:the ambiguous intriguing 
+Output:positive
+","[15, 65, 107, 126, 160, 170, 185, 203, 240, 265, 293, 311, 326, 362, 372]","['Ġa', 'Ġits', 'Ġa', 'Ġits', 'Ġa', ':a', 'Ġ,', 'Ġa', 'Ġthat', 'Ġa', 'Ġlimited', 'Ġcertainly', 'Ġambiguous', 'Ġlimited', 'Ġambiguous']"
+Ġh,Ġride,"Input:a stab at soccer hooliganism 
+Output:negative
+Input:the haphazardness of evil 
+Output:negative
+Input:a nonstop hoot 
+Output:positive
+Input:after a while , hoffman 's quirks and mannerisms , particularly his penchant for tearing up on cue -- things that seem so real in small doses -- become annoying and artificial . 
+Output:negative
+Input:carvey 's rubber-face routine is no match for the insipid script he has crafted with harris goldberg . 
+Output:negative
+Input:fast-edit , hopped-up fashion 
+Output:positive
+Input:has transformed the rhetoric of hollywood melodrama into something provocative , rich , and strange 
+Output:positive
+Input:a lovably old-school hollywood confection 
+Output:positive
+Input:simply because the movie is ugly to look at and not a hollywood product 
+Output:negative
+Input:spanning nearly three decades of bittersweet camaraderie and history , in which we feel that we truly know what makes holly and marina tick 
+Output:positive
+Input:falling into the hollywood trap 
+Output:negative
+Input:lost in the translation ... another routine hollywood frightfest in which the slack execution italicizes the absurdity of the premise 
+Output:negative
+Input:but overall the halloween series has lost its edge 
+Output:negative
+Input:not only is it hokey , manipulative and as bland as wonder bread dipped in milk , but it also does the absolute last thing we need hollywood doing to us : it preaches . 
+Output:negative
+Input:a stab at soccer hooliganism , a double-barreled rip-off of quentin tarantino 's climactic shootout -- and 
+Output:negative
+","<|begin_of_text|>Input:a stab at soccer rideooliganism 
+Output:negative
+Input:the rideaphazardness of evil 
+Output:negative
+Input:a nonstop rideoot 
+Output:positive
+Input:after a while, rideoffman's quirks and mannerisms, particularly his penchant for tearing up on cue -- things that seem so real in small doses -- become annoying and artificial. 
+Output:negative
+Input:carvey's rubber-face routine is no match for the insipid script he has crafted with ridearris goldberg. 
+Output:negative
+Input:fast-edit, rideopped-up fashion 
+Output:positive
+Input:has transformed the rhetoric of rideollywood melodrama into something provocative, rich, and strange 
+Output:positive
+Input:a lovably old-school rideollywood confection 
+Output:positive
+Input:simply because the movie is ugly to look at and not a rideollywood product 
+Output:negative
+Input:spanning nearly three decades of bittersweet camaraderie and history, in which we feel that we truly know what makes rideolly and marina tick 
+Output:positive
+Input:falling into the rideollywood trap 
+Output:negative
+Input:lost in the translation... another routine rideollywood frightfest in which the slack execution italicizes the absurdity of the premise 
+Output:negative
+Input:but overall the ridealloween series has lost its edge 
+Output:negative
+Input:not only is it hokey, manipulative and as bland as wonder bread dipped in milk, but it also does the absolute last thing we need rideollywood doing to us : it preaches. 
+Output:negative
+Input:a stab at soccer rideooliganism, a double-barreled rip-off of quentin tarantino's climactic shootout -- and 
+Output:negative
+","[5, 17, 32, 45, 106, 121, 137, 160, 184, 219, 236, 253, 280, 322, 342]","['Ġsoccer', 'the', 'stop', 'Ġ,', 'Ġwith', 'Ġ,', 'Ġof', '-school', 'Ġa', 'Ġmakes', 'Ġthe', 'Ġroutine', 'Ġthe', 'Ġneed', 'Ġsoccer']"
+Ġbrilliant,Ġno,"Input:sylvie testud is icily brilliant . 
+Output:positive
+Input:what a bewilderingly brilliant and entertaining movie 
+Output:positive
+Input:'s brilliant 
+Output:positive
+Input:strange , funny , twisted , brilliant and macabre . 
+Output:positive
+Input:is , in a word , brilliant as the conflicted daniel 
+Output:positive
+Input:is surprisingly brilliant , deftly sewing together what could have been a confusing and horrifying vision into an intense and engrossing head-trip . 
+Output:positive
+Input:so it 's not a brilliant piece of filmmaking , but it is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself , a playful spirit and a game cast 
+Output:positive
+Input:the most brilliant work in this genre since the 1984 uncut version of sergio leone 's flawed but staggering once upon a time in america . 
+Output:positive
+Input:'s the brilliant surfing photography bringing you right inside the massive waves that lifts blue crush into one of the summer 's most pleasurable movies 
+Output:positive
+Input:the brilliant performances 
+Output:positive
+Input:a rather brilliant little cult item : a pastiche of children 's entertainment , superhero comics , and japanese animation 
+Output:positive
+Input:, twisted , brilliant and macabre 
+Output:positive
+Input:is surprisingly brilliant 
+Output:positive
+Input:bewilderingly brilliant 
+Output:positive
+Input:the movie is brilliant , really . 
+Output:positive
+","<|begin_of_text|>Input:sylvie testud is icily no. 
+Output:positive
+Input:what a bewilderingly no and entertaining movie 
+Output:positive
+Input:'s no 
+Output:positive
+Input:strange, funny, twisted, no and macabre. 
+Output:positive
+Input:is, in a word, no as the conflicted daniel 
+Output:positive
+Input:is surprisingly no, deftly sewing together what could have been a confusing and horrifying vision into an intense and engrossing head-trip. 
+Output:positive
+Input:so it's not a no piece of filmmaking, but it is a funny ( sometimes hilarious ) comedy with a deft sense of humor about itself, a playful spirit and a game cast 
+Output:positive
+Input:the most no work in this genre since the 1984 uncut version of sergio leone's flawed but staggering once upon a time in america. 
+Output:positive
+Input:'s the no surfing photography bringing you right inside the massive waves that lifts blue crush into one of the summer's most pleasurable movies 
+Output:positive
+Input:the no performances 
+Output:positive
+Input:a rather no little cult item : a pastiche of children's entertainment, superhero comics, and japanese animation 
+Output:positive
+Input:, twisted, no and macabre 
+Output:positive
+Input:is surprisingly no 
+Output:positive
+Input:bewilderingly no 
+Output:positive
+Input:the movie is no, really. 
+Output:positive
+","[9, 23, 35, 49, 68, 84, 124, 166, 205, 238, 248, 277, 291, 303, 314]","['ily', 'ly', 's', 'Ġ,', 'Ġ,', 'Ġsurprisingly', 'Ġa', 'Ġmost', 'Ġthe', 'the', 'Ġrather', 'Ġ,', 'Ġsurprisingly', 'ly', 'Ġis']"
+Ġlife,Ġgrand,"Input:in all , an interesting look at the life of the campaign-trail press , especially ones that do n't really care for the candidate 
+Output:positive
+Input:it is life affirming and heartbreaking , sweet without the decay factor , funny and sad . 
+Output:positive
+Input:the film just might turn on many people to opera , in general , an art form at once visceral and spiritual , wonderfully vulgar and sublimely lofty -- and as emotionally grand as life . 
+Output:positive
+Input:, with humor , warmth , and intelligence , captures a life interestingly lived 
+Output:positive
+Input:the manner of a golden book sprung to life 
+Output:positive
+Input:her cheery and tranquil suburban life 
+Output:positive
+Input:wavers between hallmark card sentimentality and goofy , life-affirming moments straight out of a cellular phone commercial 
+Output:negative
+Input:... the tale of her passionate , tumultuous affair with musset unfolds as sand 's masculine persona , with its love of life and beauty , takes form . 
+Output:positive
+Input:the picture uses humor and a heartfelt conviction to tell a story about discovering your destination in life , but 
+Output:positive
+Input:is life affirming and heartbreaking , sweet without the decay factor , funny and sad . 
+Output:positive
+Input:strangling the life out 
+Output:negative
+Input:for its true-to-life characters , its sensitive acting , its unadorned view of rural life and the subtle direction of first-timer hilary birmingham 
+Output:positive
+Input:struggling to give themselves a better lot in life than the ones 
+Output:positive
+Input:originality in ` life ' 
+Output:positive
+Input:the fascination comes in the power of the huston performance , which seems so larger than life and yet so fragile , and in the way the ivan character accepts the news of his illness so quickly but still finds himself unable to react . 
+Output:positive
+","<|begin_of_text|>Input:in all, an interesting look at the grand of the campaign-trail press, especially ones that don't really care for the candidate 
+Output:positive
+Input:it is grand affirming and heartbreaking, sweet without the decay factor, funny and sad. 
+Output:positive
+Input:the film just might turn on many people to opera, in general, an art form at once visceral and spiritual, wonderfully vulgar and sublimely lofty -- and as emotionally grand as grand. 
+Output:positive
+Input:, with humor, warmth, and intelligence, captures a grand interestingly lived 
+Output:positive
+Input:the manner of a golden book sprung to grand 
+Output:positive
+Input:her cheery and tranquil suburban grand 
+Output:positive
+Input:wavers between hallmark card sentimentality and goofy, grand-affirming moments straight out of a cellular phone commercial 
+Output:negative
+Input:... the tale of her passionate, tumultuous affair with musset unfolds as sand's masculine persona, with its love of grand and beauty, takes form. 
+Output:positive
+Input:the picture uses humor and a heartfelt conviction to tell a story about discovering your destination in grand, but 
+Output:positive
+Input:is grand affirming and heartbreaking, sweet without the decay factor, funny and sad. 
+Output:positive
+Input:strangling the grand out 
+Output:negative
+Input:for its true-to-life characters, its sensitive acting, its unadorned view of rural grand and the subtle direction of first-timer hilary birmingham 
+Output:positive
+Input:struggling to give themselves a better lot in grand than the ones 
+Output:positive
+Input:originality in ` grand'
+Output:positive
+Input:the fascination comes in the power of the huston performance, which seems so larger than grand and yet so fragile, and in the way the ivan character accepts the news of his illness so quickly but still finds himself unable to react. 
+Output:positive
+","[10, 38, 97, 116, 135, 149, 166, 210, 241, 252, 277, 305, 333, 348, 374]","['Ġthe', 'Ġis', 'Ġas', 'Ġa', 'Ġto', 'Ġsuburban', 'Ġ,', 'Ġof', 'Ġin', 'is', 'Ġthe', 'Ġrural', 'Ġin', 'Ġ`', 'Ġthan']"
+Ġaudience,Ġnon,"Input:the audience when i saw this one was chuckling at all the wrong times , and 
+Output:negative
+Input:instead of hitting the audience over the head with a moral , schrader relies on subtle ironies and visual devices to convey point of view . 
+Output:positive
+Input:maybe he was reading the minds of the audience . 
+Output:positive
+Input:this is the case of a pregnant premise being wasted by a script that takes few chances and manages to insult the intelligence of everyone in the audience . 
+Output:negative
+Input:the film is superficial and will probably be of interest primarily to its target audience 
+Output:negative
+Input:takes few chances and manages to insult the intelligence of everyone in the audience 
+Output:negative
+Input:, the film chimes in on the grieving process and strangely draws the audience into the unexplainable pain and eccentricities that are attached to the concept of loss . 
+Output:positive
+Input:in all fairness , i must report that the children of varying ages in my audience never coughed , fidgeted or romped up and down the aisles for bathroom breaks . 
+Output:positive
+Input:( soderbergh ) tends to place most of the psychological and philosophical material in italics rather than trust an audience 's intelligence 
+Output:negative
+Input:` science fiction ' takes advantage of the fact that its intended audience has n't yet had much science 
+Output:negative
+Input:( soderbergh ) tends to place most of the psychological and philosophical material in italics rather than trust an audience 's intelligence , and he creates an overall sense of brusqueness . 
+Output:negative
+Input:does n't become smug or sanctimonious towards the audience 
+Output:positive
+Input:the audience other than to sit back and enjoy a couple of great actors hamming it up 
+Output:positive
+Input:a skillful filmmaker can impart a message without bludgeoning the audience over the head 
+Output:positive
+Input:there must be an audience that enjoys the friday series , but i would n't be interested in knowing any of them personally 
+Output:negative
+","<|begin_of_text|>Input:the non when i saw this one was chuckling at all the wrong times, and 
+Output:negative
+Input:instead of hitting the non over the head with a moral, schrader relies on subtle ironies and visual devices to convey point of view. 
+Output:positive
+Input:maybe he was reading the minds of the non. 
+Output:positive
+Input:this is the case of a pregnant premise being wasted by a script that takes few chances and manages to insult the intelligence of everyone in the non. 
+Output:negative
+Input:the film is superficial and will probably be of interest primarily to its target non 
+Output:negative
+Input:takes few chances and manages to insult the intelligence of everyone in the non 
+Output:negative
+Input:, the film chimes in on the grieving process and strangely draws the non into the unexplainable pain and eccentricities that are attached to the concept of loss. 
+Output:positive
+Input:in all fairness, i must report that the children of varying ages in my non never coughed, fidgeted or romped up and down the aisles for bathroom breaks. 
+Output:positive
+Input:( soderbergh ) tends to place most of the psychological and philosophical material in italics rather than trust an non's intelligence 
+Output:negative
+Input:` science fiction'takes advantage of the fact that its intended non hasn't yet had much science 
+Output:negative
+Input:( soderbergh ) tends to place most of the psychological and philosophical material in italics rather than trust an non's intelligence, and he creates an overall sense of brusqueness. 
+Output:negative
+Input:doesn't become smug or sanctimonious towards the non 
+Output:positive
+Input:the non other than to sit back and enjoy a couple of great actors hamming it up 
+Output:positive
+Input:a skillful filmmaker can impart a message without bludgeoning the non over the head 
+Output:positive
+Input:there must be an non that enjoys the friday series, but i wouldn't be interested in knowing any of them personally 
+Output:negative
+","[3, 30, 70, 105, 128, 149, 170, 211, 262, 284, 322, 358, 367, 403, 418]","['the', 'Ġthe', 'Ġthe', 'Ġthe', 'Ġtarget', 'Ġthe', 'Ġthe', 'Ġmy', 'Ġan', 'Ġintended', 'Ġan', 'Ġthe', 'the', 'Ġthe', 'Ġan']"
+Ġhar,Ġcall,"Input:revel in those visual in-jokes , as in the film 's verbal pokes at everything from the likes of miramax chief harvey weinstein 's bluff personal style 
+Output:positive
+Input:proves simultaneously harrowing and uplifting 
+Output:positive
+Input:a harrowing account 
+Output:positive
+Input:the nicest thing that can be said about stealing harvard ( which might have been called freddy gets molested by a dog ) 
+Output:negative
+Input:of an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting 
+Output:positive
+Input:stealing harvard is a horrible movie -- if only it were that grand a failure 
+Output:negative
+Input:comes not from any cinematic razzle-dazzle but from its recovery of an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting 
+Output:positive
+Input:is a sort of geriatric dirty harry , which will please eastwood 's loyal fans -- and suits the story , wherein our hero must ride roughshod over incompetent cops to get his man 
+Output:positive
+Input:steven shainberg 's adaptation of mary gaitskill 's harrowing short story ... is a brilliantly played , deeply unsettling experience . 
+Output:positive
+Input:with which it tries to pump life into overworked elements from eastwood 's dirty harry period 
+Output:negative
+Input:from any cinematic razzle-dazzle but from its recovery of an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting 
+Output:positive
+Input:comes not from any cinematic razzle-dazzle but from its recovery of an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting . 
+Output:positive
+Input:set in a 1986 harlem that does n't look much like anywhere in new york 
+Output:negative
+Input:not from any cinematic razzle-dazzle but from its recovery of an historical episode that , in the simple telling , proves simultaneously harrowing and uplifting 
+Output:positive
+Input:'s hard to imagine anybody ever being `` in the mood '' to view a movie as harrowing and painful as the grey zone 
+Output:negative
+","<|begin_of_text|>Input:revel in those visual in-jokes, as in the film's verbal pokes at everything from the likes of miramax chief callvey weinstein's bluff personal style 
+Output:positive
+Input:proves simultaneously callrowing and uplifting 
+Output:positive
+Input:a callrowing account 
+Output:positive
+Input:the nicest thing that can be said about stealing callvard ( which might have been called freddy gets molested by a dog ) 
+Output:negative
+Input:of an historical episode that, in the simple telling, proves simultaneously callrowing and uplifting 
+Output:positive
+Input:stealing callvard is a horrible movie -- if only it were that grand a failure 
+Output:negative
+Input:comes not from any cinematic razzle-dazzle but from its recovery of an historical episode that, in the simple telling, proves simultaneously callrowing and uplifting 
+Output:positive
+Input:is a sort of geriatric dirty callry, which will please eastwood's loyal fans -- and suits the story, wherein our hero must ride roughshod over incompetent cops to get his man 
+Output:positive
+Input:steven shainberg's adaptation of mary gaitskill's callrowing short story... is a brilliantly played, deeply unsettling experience. 
+Output:positive
+Input:with which it tries to pump life into overworked elements from eastwood's dirty callry period 
+Output:negative
+Input:from any cinematic razzle-dazzle but from its recovery of an historical episode that, in the simple telling, proves simultaneously callrowing and uplifting 
+Output:positive
+Input:comes not from any cinematic razzle-dazzle but from its recovery of an historical episode that, in the simple telling, proves simultaneously callrowing and uplifting. 
+Output:positive
+Input:set in a 1986 calllem that doesn't look much like anywhere in new york 
+Output:negative
+Input:not from any cinematic razzle-dazzle but from its recovery of an historical episode that, in the simple telling, proves simultaneously callrowing and uplifting 
+Output:positive
+Input:'s hard to imagine anybody ever being `` in the mood '' to view a movie as callrowing and painful as the grey zone 
+Output:negative
+","[29, 48, 59, 79, 116, 129, 179, 197, 252, 290, 326, 365, 382, 428, 456]","['Ġchief', 'Ġsimultaneously', ':a', 'Ġstealing', 'Ġsimultaneously', 'aling', 'Ġsimultaneously', 'Ġdirty', 's', 'Ġdirty', 'Ġsimultaneously', 'Ġsimultaneously', '6', 'Ġsimultaneously', 'Ġas']"
+Ġwho,Ġmanages,"Input:has a tremendous , offbeat sense of style and humor that suggests he was influenced by some of the filmmakers who have directed him , especially the coen brothers and steven soderbergh 
+Output:positive
+Input:has a built-in audience , but only among those who are drying out from spring break 
+Output:negative
+Input:an imaginative filmmaker who can see the forest for the trees 
+Output:positive
+Input:those moviegoers who would automatically bypass a hip-hop documentary should give `` scratch '' a second look . 
+Output:positive
+Input:are capable of anteing up some movie star charisma when they need it to sell us on this twisted love story , but who can also negotiate the movie 's darker turns 
+Output:positive
+Input:tailor-made for those who when they were in high school would choose the cliff-notes over reading a full-length classic 
+Output:negative
+Input:for this sensuous and spirited tale of a prim widow who finds an unlikely release in belly-dancing clubs 
+Output:positive
+Input:a comedian who starts off promisingly but then proceeds to flop 
+Output:negative
+Input:a director who understands how to create and sustain a mood 
+Output:positive
+Input:, home movie is about the people who live in them , who have carved their own comfortable niche in the world and have been kind enough to share it . 
+Output:positive
+Input:school experience that plays better only for the film 's publicists or for people who take as many drugs as the film 's characters 
+Output:negative
+Input:of wladyslaw szpilman , who is not only a pianist , but a good human being 
+Output:positive
+Input:are tantamount to insulting the intelligence of anyone who has n't been living under a rock 
+Output:negative
+Input:is due primarily to the perkiness of witherspoon ( who is always a joy to watch , even when her material is not first-rate ) 
+Output:positive
+Input:of the same from taiwanese auteur tsai ming-liang , which is good news to anyone who 's fallen under the sweet , melancholy spell of this unique director 's previous films 
+Output:positive
+","<|begin_of_text|>Input:has a tremendous, offbeat sense of style and humor that suggests he was influenced by some of the filmmakers manages have directed him, especially the coen brothers and steven soderbergh 
+Output:positive
+Input:has a built-in audience, but only among those manages are drying out from spring break 
+Output:negative
+Input:an imaginative filmmaker manages can see the forest for the trees 
+Output:positive
+Input:those moviegoers manages would automatically bypass a hip-hop documentary should give `` scratch '' a second look. 
+Output:positive
+Input:are capable of anteing up some movie star charisma when they need it to sell us on this twisted love story, but manages can also negotiate the movie's darker turns 
+Output:positive
+Input:tailor-made for those manages when they were in high school would choose the cliff-notes over reading a full-length classic 
+Output:negative
+Input:for this sensuous and spirited tale of a prim widow manages finds an unlikely release in belly-dancing clubs 
+Output:positive
+Input:a comedian manages starts off promisingly but then proceeds to flop 
+Output:negative
+Input:a director manages understands how to create and sustain a mood 
+Output:positive
+Input:, home movie is about the people manages live in them, manages have carved their own comfortable niche in the world and have been kind enough to share it. 
+Output:positive
+Input:school experience that plays better only for the film's publicists or for people manages take as many drugs as the film's characters 
+Output:negative
+Input:of wladyslaw szpilman, manages is not only a pianist, but a good human being 
+Output:positive
+Input:are tantamount to insulting the intelligence of anyone manages hasn't been living under a rock 
+Output:negative
+Input:is due primarily to the perkiness of witherspoon ( manages is always a joy to watch, even when her material is not first-rate ) 
+Output:positive
+Input:of the same from taiwanese auteur tsai ming-liang, which is good news to anyone who's fallen under the sweet, melancholy spell of this unique director's previous films 
+Output:positive
+","[23, 57, 74, 93, 141, 163, 199, 217, 235, 257, 262, 304, 332, 361, 389]","['Ġfilmmakers', 'Ġthose', 'Ġfilmmaker', 'ers', 'Ġbut', 'Ġthose', 'Ġwidow', 'Ġcomedian', 'Ġdirector', 'Ġpeople', 'Ġ,', 'Ġpeople', 'Ġ,', 'Ġanyone', 'Ġ(']"
+Ġtime,Ġvery,"Input:he 's well worth spending some time with 
+Output:positive
+Input:australia : land beyond time is an enjoyable big movie primarily because australia is a weirdly beautiful place . 
+Output:positive
+Input:photographed with color and depth , and rather a good time . 
+Output:positive
+Input:have a good time here 
+Output:positive
+Input:waste viewers ' time with a gobbler like this 
+Output:negative
+Input:as long on the irrelevant as on the engaging , which gradually turns what time is it there ? 
+Output:negative
+Input:at this time , with this cast , this movie is hopeless 
+Output:negative
+Input:feel like time fillers between surf shots 
+Output:negative
+Input:a superfluous sequel ... plagued by that old familiar feeling of ` let 's get this thing over with ' : everyone has shown up at the appointed time and place , but 
+Output:negative
+Input:feature-length running time 
+Output:positive
+Input:you value your time and money 
+Output:positive
+Input:an all-around good time at the movies this summer 
+Output:positive
+Input:after you laugh once ( maybe twice ) , you will have completely forgotten the movie by the time you get back to your car in the parking lot . 
+Output:negative
+Input:same time to congratulate himself for having the guts to confront it 
+Output:positive
+Input:big time 
+Output:positive
+","<|begin_of_text|>Input:he's well worth spending some very with 
+Output:positive
+Input:australia : land beyond very is an enjoyable big movie primarily because australia is a weirdly beautiful place. 
+Output:positive
+Input:photographed with color and depth, and rather a good very. 
+Output:positive
+Input:have a good very here 
+Output:positive
+Input:waste viewers'very with a gobbler like this 
+Output:negative
+Input:as long on the irrelevant as on the engaging, which gradually turns what very is it there? 
+Output:negative
+Input:at this very, with this cast, this movie is hopeless 
+Output:negative
+Input:feel like very fillers between surf shots 
+Output:negative
+Input:a superfluous sequel... plagued by that old familiar feeling of ` let's get this thing over with': everyone has shown up at the appointed very and place, but 
+Output:negative
+Input:feature-length running very 
+Output:positive
+Input:you value your very and money 
+Output:positive
+Input:an all-around good very at the movies this summer 
+Output:positive
+Input:after you laugh once ( maybe twice ), you will have completely forgotten the movie by the very you get back to your car in the parking lot. 
+Output:negative
+Input:same very to congratulate himself for having the guts to confront it 
+Output:positive
+Input:big very 
+Output:positive
+","[9, 24, 58, 70, 82, 111, 125, 144, 187, 202, 213, 227, 258, 278, 297]","['Ġsome', 'Ġbeyond', 'Ġgood', 'Ġgood', ""Ġ'"", 'Ġwhat', 'Ġthis', 'Ġlike', 'Ġappointed', 'Ġrunning', 'Ġyour', 'Ġgood', 'Ġthe', 'ame', 'big']"
+Ġslap,Ġtimes,"Input:its spry 2001 predecessor -- but it 's a rushed , slapdash , sequel-for-the-sake - of-a-sequel with less than half the plot and ingenuity 
+Output:negative
+Input:burns gets caught up in the rush of slapstick thoroughfare . 
+Output:negative
+Input:rowdy slapstick 
+Output:positive
+Input:you want to slap it 
+Output:negative
+Input:its and pieces of the hot chick are so hilarious , and schneider 's performance is so fine , it 's a real shame that so much of the movie -- again , as in the animal -- is a slapdash mess . 
+Output:negative
+Input:feel the wasted potential of this slapstick comedy 
+Output:negative
+Input:in a slap-happy mood 
+Output:positive
+Input:the slapstick is labored 
+Output:negative
+Input:sub-formulaic slap 
+Output:negative
+Input:but it 's a rushed , slapdash , sequel-for-the-sake - of-a-sequel with less than half 
+Output:negative
+Input:ages-old slapstick and unfunny tricks 
+Output:negative
+Input:if we 're to slap protagonist genevieve leplouff because she 's french , do we have that same option to slap her creators because they 're clueless and inept ? 
+Output:negative
+Input:the movie 's sophomoric blend of shenanigans and slapstick 
+Output:negative
+Input:a sub-formulaic slap in the face 
+Output:negative
+Input:adolescents will be adequately served by the movie 's sophomoric blend of shenanigans and slapstick , although the more lascivious-minded might be disappointed in the relative modesty of a movie that sports a ` topless tutorial service . ' 
+Output:positive
+","<|begin_of_text|>Input:its spry 2001 predecessor -- but it's a rushed, timesdash, sequel-for-the-sake - of-a-sequel with less than half the plot and ingenuity 
+Output:negative
+Input:burns gets caught up in the rush of timesstick thoroughfare. 
+Output:negative
+Input:rowdy timesstick 
+Output:positive
+Input:you want to times it 
+Output:negative
+Input:its and pieces of the hot chick are so hilarious, and schneider's performance is so fine, it's a real shame that so much of the movie -- again, as in the animal -- is a timesdash mess. 
+Output:negative
+Input:feel the wasted potential of this timesstick comedy 
+Output:negative
+Input:in a times-happy mood 
+Output:positive
+Input:the timesstick is labored 
+Output:negative
+Input:sub-formulaic times 
+Output:negative
+Input:but it's a rushed, timesdash, sequel-for-the-sake - of-a-sequel with less than half 
+Output:negative
+Input:ages-old timesstick and unfunny tricks 
+Output:negative
+Input:if we're to times protagonist genevieve leplouff because she's french, do we have that same option to times her creators because they're clueless and inept? 
+Output:negative
+Input:the movie's sophomoric blend of shenanigans and timesstick 
+Output:negative
+Input:a sub-formulaic times in the face 
+Output:negative
+Input:adolescents will be adequately served by the movie's sophomoric blend of shenanigans and slapstick, although the more lascivious-minded might be disappointed in the relative modesty of a movie that sports a ` topless tutorial service.'
+Output:positive
+","[17, 56, 70, 82, 134, 151, 163, 175, 191, 206, 233, 251, 273, 306, 319]","['Ġ,', 'Ġof', 'dy', 'Ġto', 'Ġa', 'Ġthis', 'Ġa', 'the', 'ic', 'Ġ,', '-old', 'Ġto', 'Ġto', 'Ġand', 'ic']"
+Ġlives,Ġlike,"Input:makes these lives count . 
+Output:positive
+Input:the interior lives of the characters in his film 
+Output:positive
+Input:its use of the thriller form to examine the labyrinthine ways in which people 's lives cross and change , buffeted by events seemingly out of their control 
+Output:positive
+Input:nothing but one relentlessly depressing situation after another for its entire running time , something that you could easily be dealing with right now in your lives . 
+Output:negative
+Input:an intimate contemplation of two marvelously messy lives . 
+Output:positive
+Input:told in scattered fashion , the movie only intermittently lives up to the stories and faces and music of the men who are its subject . 
+Output:negative
+Input:like a bad improvisation exercise , the superficially written characters ramble on tediously about their lives , loves and the art 
+Output:negative
+Input:an unabashedly romantic picture of a nation whose songs spring directly from the lives of the people 
+Output:positive
+Input:, one hour photo lives down to its title . 
+Output:negative
+Input:the great equalizer that can calm us of our daily ills and bring out joys in our lives that we never knew 
+Output:positive
+Input:a film that begins with the everyday lives of naval personnel in san diego and ends with scenes so true and heartbreaking that tears welled up in my eyes both times i saw the film . 
+Output:positive
+Input:comedy that also asks its audience -- in a heartwarming , nonjudgmental kind of way -- to consider what we value in our daily lives 
+Output:positive
+Input:these are textbook lives of quiet desperation . 
+Output:negative
+Input:is the great equalizer that can calm us of our daily ills and bring out joys in our lives that we never knew 
+Output:positive
+Input:p.t. anderson understands the grandness of romance and how love is the great equalizer that can calm us of our daily ills and bring out joys in our lives that we never knew were possible . 
+Output:positive
+","<|begin_of_text|>Input:makes these like count. 
+Output:positive
+Input:the interior like of the characters in his film 
+Output:positive
+Input:its use of the thriller form to examine the labyrinthine ways in which people's like cross and change, buffeted by events seemingly out of their control 
+Output:positive
+Input:nothing but one relentlessly depressing situation after another for its entire running time, something that you could easily be dealing with right now in your like. 
+Output:negative
+Input:an intimate contemplation of two marvelously messy like. 
+Output:positive
+Input:told in scattered fashion, the movie only intermittently like up to the stories and faces and music of the men who are its subject. 
+Output:negative
+Input:like a bad improvisation exercise, the superficially written characters ramble on tediously about their like, loves and the art 
+Output:negative
+Input:an unabashedly romantic picture of a nation whose songs spring directly from the like of the people 
+Output:positive
+Input:, one hour photo like down to its title. 
+Output:negative
+Input:the great equalizer that can calm us of our daily ills and bring out joys in our like that we never knew 
+Output:positive
+Input:a film that begins with the everyday like of naval personnel in san diego and ends with scenes so true and heartbreaking that tears welled up in my eyes both times i saw the film. 
+Output:positive
+Input:comedy that also asks its audience -- in a heartwarming, nonjudgmental kind of way -- to consider what we value in our daily like 
+Output:positive
+Input:these are textbook like of quiet desperation. 
+Output:negative
+Input:is the great equalizer that can calm us of our daily ills and bring out joys in our like that we never knew 
+Output:positive
+Input:p.t. anderson understands the grandness of romance and how love is the great equalizer that can calm us of our daily ills and bring out joys in our like that we never knew were possible. 
+Output:positive
+","[4, 16, 47, 94, 112, 131, 174, 202, 216, 248, 266, 334, 345, 377, 422]","['Ġthese', 'Ġinterior', 's', 'Ġyour', 'Ġmessy', 'ently', 'Ġtheir', 'Ġthe', 'Ġphoto', 'Ġour', 'Ġeveryday', 'Ġdaily', 'Ġtextbook', 'Ġour', 'Ġour']"
+Ġviewers,Ġways,"Input:'s something to be said for a studio-produced film that never bothers to hand viewers a suitcase full of easy answers . 
+Output:positive
+Input:most intelligent viewers 
+Output:positive
+Input:something to be said for a studio-produced film that never bothers to hand viewers a suitcase full of easy answers 
+Output:positive
+Input:store for unwary viewers 
+Output:negative
+Input:a portrait of alienation so perfect , it will certainly succeed in alienating most viewers . 
+Output:negative
+Input:ardently waste viewers ' time with a gobbler like this 
+Output:negative
+Input:a gorgeously strange movie , heaven is deeply concerned with morality , but it refuses to spell things out for viewers . 
+Output:positive
+Input:offend viewers not amused by the sick sense of humor 
+Output:negative
+Input:fly with most intelligent viewers 
+Output:positive
+Input:it will certainly succeed in alienating most viewers 
+Output:negative
+Input:format to make an old-fashioned nature film that educates viewers with words and pictures while entertaining them 
+Output:positive
+Input:gives viewers a chance to learn , to grow , to travel 
+Output:positive
+Input:it is doubtful this listless feature will win him any new viewers 
+Output:negative
+Input:carries arnold ( and the viewers ) into the forbidden zone of sympathizing with terrorist motivations by presenting the `` other side of the story . '' 
+Output:positive
+Input:( johnnie to and wai ka fai are ) sure to find an enthusiastic audience among american action-adventure buffs , but the film 's interests may be too narrow to attract crossover viewers . 
+Output:negative
+","<|begin_of_text|>Input:'s something to be said for a studio-produced film that never bothers to hand ways a suitcase full of easy answers. 
+Output:positive
+Input:most intelligent ways 
+Output:positive
+Input:something to be said for a studio-produced film that never bothers to hand ways a suitcase full of easy answers 
+Output:positive
+Input:store for unwary ways 
+Output:negative
+Input:a portrait of alienation so perfect, it will certainly succeed in alienating most ways. 
+Output:negative
+Input:ardently waste ways'time with a gobbler like this 
+Output:negative
+Input:a gorgeously strange movie, heaven is deeply concerned with morality, but it refuses to spell things out for ways. 
+Output:positive
+Input:offend ways not amused by the sick sense of humor 
+Output:negative
+Input:fly with most intelligent ways 
+Output:positive
+Input:it will certainly succeed in alienating most ways 
+Output:negative
+Input:format to make an old-fashioned nature film that educates ways with words and pictures while entertaining them 
+Output:positive
+Input:gives ways a chance to learn, to grow, to travel 
+Output:positive
+Input:it is doubtful this listless feature will win him any new ways 
+Output:negative
+Input:carries arnold ( and the ways ) into the forbidden zone of sympathizing with terrorist motivations by presenting the `` other side of the story. '' 
+Output:positive
+Input:( johnnie to and wai ka fai are ) sure to find an enthusiastic audience among american action-adventure buffs, but the film's interests may be too narrow to attract crossover ways. 
+Output:negative
+","[17, 34, 56, 74, 97, 109, 146, 157, 177, 193, 212, 228, 258, 274, 341]","['Ġhand', 'Ġintelligent', 'Ġhand', 'ary', 'Ġmost', 'Ġwaste', 'Ġfor', 'end', 'Ġintelligent', 'Ġmost', 'ates', 'ives', 'Ġnew', 'Ġthe', 'Ġcrossover']"
+Ġcould,Ġattention,"Input:'s hard to believe that something so short could be so flabby 
+Output:negative
+Input:if you 're the kind of parent who enjoys intentionally introducing your kids to films which will cause loads of irreparable damage that years and years of costly analysis could never fix , i have just one word for you - -- decasia 
+Output:negative
+Input:convinced i could keep a family of five blind , crippled , amish people alive in this situation better than these british soldiers do at keeping themselves kicking 
+Output:negative
+Input:writer-director randall wallace has bitten off more than he or anyone else could chew , 
+Output:negative
+Input:so short could be so flabby 
+Output:negative
+Input:an allegory concerning the chronically mixed signals african american professionals get about overachieving could be intriguing 
+Output:positive
+Input:'s replaced by some dramatic scenes that are jarring and deeply out of place in what could have ( and probably should have ) been a lighthearted comedy . 
+Output:negative
+Input:despite its hawaiian setting , the science-fiction trimmings and some moments of rowdy slapstick , the basic plot of `` lilo '' could have been pulled from a tear-stained vintage shirley temple script . 
+Output:negative
+Input:is the kind of film that could only be made by african-americans because of its broad racial insensitivity towards african-americans . 
+Output:negative
+Input:and he allows a gawky actor like spall -- who could too easily become comic relief in any other film -- to reveal his impressively delicate range . 
+Output:positive
+Input:( it 's ) what punk rock music used to be , and what the video medium could use more of : spirit , perception , conviction 
+Output:positive
+Input:sit through a crummy , wannabe-hip crime comedy that refers incessantly to old movies , when you could just rent those movies instead , let alone seek out a respectable new one ? 
+Output:negative
+Input:itself could be played out in any working class community in the nation . 
+Output:positive
+Input:who normally could n't care less 
+Output:negative
+Input:has in fact come closer than anyone could desire to the cheap , graceless , hackneyed sci-fi serials of the '30s and '40s 
+Output:negative
+","<|begin_of_text|>Input:'s hard to believe that something so short attention be so flabby 
+Output:negative
+Input:if you're the kind of parent who enjoys intentionally introducing your kids to films which will cause loads of irreparable damage that years and years of costly analysis attention never fix, i have just one word for you - -- decasia 
+Output:negative
+Input:convinced i attention keep a family of five blind, crippled, amish people alive in this situation better than these british soldiers do at keeping themselves kicking 
+Output:negative
+Input:writer-director randall wallace has bitten off more than he or anyone else attention chew, 
+Output:negative
+Input:so short attention be so flabby 
+Output:negative
+Input:an allegory concerning the chronically mixed signals african american professionals get about overachieving attention be intriguing 
+Output:positive
+Input:'s replaced by some dramatic scenes that are jarring and deeply out of place in what attention have ( and probably should have ) been a lighthearted comedy. 
+Output:negative
+Input:despite its hawaiian setting, the science-fiction trimmings and some moments of rowdy slapstick, the basic plot of `` lilo '' attention have been pulled from a tear-stained vintage shirley temple script. 
+Output:negative
+Input:is the kind of film that attention only be made by african-americans because of its broad racial insensitivity towards african-americans. 
+Output:negative
+Input:and he allows a gawky actor like spall -- who attention too easily become comic relief in any other film -- to reveal his impressively delicate range. 
+Output:positive
+Input:( it's ) what punk rock music used to be, and what the video medium attention use more of : spirit, perception, conviction 
+Output:positive
+Input:sit through a crummy, wannabe-hip crime comedy that refers incessantly to old movies, when you attention just rent those movies instead, let alone seek out a respectable new one? 
+Output:negative
+Input:itself attention be played out in any working class community in the nation. 
+Output:positive
+Input:who normally attentionn't care less 
+Output:negative
+Input:has in fact come closer than anyone attention desire to the cheap, graceless, hackneyed sci-fi serials of the '30s and '40s 
+Output:negative
+","[10, 53, 79, 129, 141, 170, 197, 252, 281, 323, 366, 405, 430, 452, 471]","['Ġshort', 'Ġanalysis', 'Ġi', 'Ġelse', 'Ġshort', 'ving', 'Ġwhat', ""Ġ''"", 'Ġthat', 'Ġwho', 'Ġmedium', 'Ġyou', 'self', 'Ġnormally', 'Ġanyone']"
+Ġbeauty,Ġreason,"Input:against shimmering cinematography that lends the setting the ethereal beauty of an asian landscape painting 
+Output:positive
+Input:deep inside righteousness can be found a tough beauty 
+Output:positive
+Input:as sand 's masculine persona , with its love of life and beauty , takes form 
+Output:positive
+Input:both the beauty of the land and the people 
+Output:positive
+Input:sand , who brings to the role her pale , dark beauty and characteristic warmth 
+Output:positive
+Input:the beauty and power of the opera reside primarily in the music itself 
+Output:positive
+Input:in mystery and a ravishing , baroque beauty 
+Output:positive
+Input:life and beauty 
+Output:positive
+Input:could have turned this into an argentine retread of `` iris '' or `` american beauty , 
+Output:negative
+Input:has a lot to do with the casting of juliette binoche as sand , who brings to the role her pale , dark beauty and characteristic warmth . 
+Output:positive
+Input:mystery and a ravishing , baroque beauty 
+Output:positive
+Input:the beauty of alexander payne 's ode to the everyman is in the details . 
+Output:positive
+Input:as gory as the scenes of torture and self-mutilation may be , they are pitted against shimmering cinematography that lends the setting the ethereal beauty of an asian landscape painting . 
+Output:positive
+Input:the sally jesse raphael atmosphere of films like philadelphia and american beauty 
+Output:positive
+Input:are pitted against shimmering cinematography that lends the setting the ethereal beauty of an asian landscape painting . 
+Output:positive
+","<|begin_of_text|>Input:against shimmering cinematography that lends the setting the ethereal reason of an asian landscape painting 
+Output:positive
+Input:deep inside righteousness can be found a tough reason 
+Output:positive
+Input:as sand's masculine persona, with its love of life and reason, takes form 
+Output:positive
+Input:both the reason of the land and the people 
+Output:positive
+Input:sand, who brings to the role her pale, dark reason and characteristic warmth 
+Output:positive
+Input:the reason and power of the opera reside primarily in the music itself 
+Output:positive
+Input:in mystery and a ravishing, baroque reason 
+Output:positive
+Input:life and reason 
+Output:positive
+Input:could have turned this into an argentine retread of `` iris '' or `` american reason, 
+Output:negative
+Input:has a lot to do with the casting of juliette binoche as sand, who brings to the role her pale, dark reason and characteristic warmth. 
+Output:positive
+Input:mystery and a ravishing, baroque reason 
+Output:positive
+Input:the reason of alexander payne's ode to the everyman is in the details. 
+Output:positive
+Input:as gory as the scenes of torture and self-mutilation may be, they are pitted against shimmering cinematography that lends the setting the ethereal reason of an asian landscape painting. 
+Output:positive
+Input:the sally jesse raphael atmosphere of films like philadelphia and american reason 
+Output:positive
+Input:are pitted against shimmering cinematography that lends the setting the ethereal reason of an asian landscape painting. 
+Output:positive
+","[14, 35, 56, 68, 93, 105, 133, 143, 168, 204, 224, 233, 290, 319, 342]","['ereal', 'Ġtough', 'Ġand', 'Ġthe', 'Ġdark', 'the', 'oque', 'Ġand', 'Ġamerican', 'Ġdark', 'oque', 'the', 'ereal', 'Ġamerican', 'ereal']"
+Ġfilmmaker,Ġleft,"Input:he is an imaginative filmmaker who can see the forest for the trees 
+Output:positive
+Input:is a filmmaker of impressive talent 
+Output:positive
+Input:an invaluable historical document thanks to the filmmaker 's extraordinary access to massoud , whose charm , cultivation and devotion to his people are readily apparent 
+Output:positive
+Input:the work of a filmmaker who has secrets buried at the heart of his story and knows how to take time revealing them . 
+Output:positive
+Input:a filmmaker to let this morph into a typical romantic triangle 
+Output:negative
+Input:the tiresome rant of an aging filmmaker still thumbing his nose at convention 
+Output:negative
+Input:skillful filmmaker 
+Output:positive
+Input:an established filmmaker 
+Output:positive
+Input:aside from rohmer 's bold choices regarding point of view , the lady and the duke represents the filmmaker 's lifelong concern with formalist experimentation in cinematic art . 
+Output:positive
+Input:the movie 's wildly careening tone and an extremely flat lead performance do little to salvage this filmmaker 's flailing reputation . 
+Output:negative
+Input:by french filmmaker karim dridi that celebrates the hardy spirit of cuban music 
+Output:positive
+Input:with `` ichi the killer '' , takashi miike , japan 's wildest filmmaker gives us a crime fighter carrying more emotional baggage than batman ... 
+Output:negative
+Input:burns is a filmmaker with a bright future ahead of him 
+Output:positive
+Input:an invaluable historical document thanks to the filmmaker 's extraordinary access to massoud , whose charm , cultivation and devotion to his people are readily apparent . 
+Output:positive
+Input:rice is too pedestrian a filmmaker to bring any edge or personality to the rising place that would set it apart from other deep south stories . 
+Output:negative
+","<|begin_of_text|>Input:he is an imaginative left who can see the forest for the trees 
+Output:positive
+Input:is a left of impressive talent 
+Output:positive
+Input:an invaluable historical document thanks to the left's extraordinary access to massoud, whose charm, cultivation and devotion to his people are readily apparent 
+Output:positive
+Input:the work of a left who has secrets buried at the heart of his story and knows how to take time revealing them. 
+Output:positive
+Input:a left to let this morph into a typical romantic triangle 
+Output:negative
+Input:the tiresome rant of an aging left still thumbing his nose at convention 
+Output:negative
+Input:skillful left 
+Output:positive
+Input:an established left 
+Output:positive
+Input:aside from rohmer's bold choices regarding point of view, the lady and the duke represents the left's lifelong concern with formalist experimentation in cinematic art. 
+Output:positive
+Input:the movie's wildly careening tone and an extremely flat lead performance do little to salvage this left's flailing reputation. 
+Output:negative
+Input:by french left karim dridi that celebrates the hardy spirit of cuban music 
+Output:positive
+Input:with `` ichi the killer '', takashi miike, japan's wildest left gives us a crime fighter carrying more emotional baggage than batman... 
+Output:negative
+Input:burns is a left with a bright future ahead of him 
+Output:positive
+Input:an invaluable historical document thanks to the left's extraordinary access to massoud, whose charm, cultivation and devotion to his people are readily apparent. 
+Output:positive
+Input:rice is too pedestrian a left to bring any edge or personality to the rising place that would set it apart from other deep south stories. 
+Output:negative
+","[6, 24, 42, 74, 101, 125, 142, 152, 181, 220, 236, 276, 301, 323, 357]","['Ġimaginative', 'Ġa', 'Ġthe', 'Ġa', ':a', 'Ġaging', 'ful', 'Ġestablished', 'Ġthe', 'Ġthis', 'Ġfrench', 'dest', 'Ġa', 'Ġthe', 'Ġa']"
+Ġsex,Ġtone,"Input:tosses around sex toys and offers half-hearted paeans to empowerment that are repeatedly undercut by the brutality of the jokes , most at women 's expense 
+Output:negative
+Input:full of sex , drugs and rock 
+Output:positive
+Input:( cuarón has ) created a substantive movie out of several cliched movie structures : the road movie , the coming-of-age movie , and the teenage sex comedy . 
+Output:positive
+Input:` anyone with a passion for cinema , and indeed sex , should see it as soon as possible . ' 
+Output:positive
+Input:there 's a little violence and lots of sex in a bid to hold our attention , but it grows monotonous after a while , as do joan and philip 's repetitive arguments , schemes and treachery . 
+Output:negative
+Input:rarely has sex on screen been so aggressively anti-erotic . 
+Output:negative
+Input:with or without the sex , a wonderful tale of love and destiny 
+Output:positive
+Input:greg kinnear gives a mesmerizing performance as a full-fledged sex addict who is in complete denial about his obsessive behavior . 
+Output:positive
+Input:skims over the realities of gay sex 
+Output:negative
+Input:'s the element of condescension , as the filmmakers look down on their working-class subjects from their lofty perch , that finally makes sex with strangers , which opens today in the new york metropolitan area , so distasteful 
+Output:negative
+Input:is like scorsese 's mean streets redone by someone who ignored it in favor of old ` juvenile delinquent ' paperbacks with titles like leather warriors and switchblade sexpot 
+Output:negative
+Input:a college story that works even without vulgarity , sex scenes , and cussing 
+Output:positive
+Input:vulgarity , sex scenes , and cussing 
+Output:negative
+Input:graphic sex may be what 's attracting audiences to unfaithful , but gripping performances by lane and gere are what will keep them awake 
+Output:positive
+Input:to feel sorry for mick jagger 's sex life 
+Output:negative
+","<|begin_of_text|>Input:tosses around tone toys and offers half-hearted paeans to empowerment that are repeatedly undercut by the brutality of the jokes, most at women's expense 
+Output:negative
+Input:full of tone, drugs and rock 
+Output:positive
+Input:( cuarón has ) created a substantive movie out of several cliched movie structures : the road movie, the coming-of-age movie, and the teenage tone comedy. 
+Output:positive
+Input:` anyone with a passion for cinema, and indeed tone, should see it as soon as possible.'
+Output:positive
+Input:there's a little violence and lots of tone in a bid to hold our attention, but it grows monotonous after a while, as do joan and philip's repetitive arguments, schemes and treachery. 
+Output:negative
+Input:rarely has tone on screen been so aggressively anti-erotic. 
+Output:negative
+Input:with or without the tone, a wonderful tale of love and destiny 
+Output:positive
+Input:greg kinnear gives a mesmerizing performance as a full-fledged tone addict who is in complete denial about his obsessive behavior. 
+Output:positive
+Input:skims over the realities of gay tone 
+Output:negative
+Input:'s the element of condescension, as the filmmakers look down on their working-class subjects from their lofty perch, that finally makes tone with strangers, which opens today in the new york metropolitan area, so distasteful 
+Output:negative
+Input:is like scorsese's mean streets redone by someone who ignored it in favor of old ` juvenile delinquent'paperbacks with titles like leather warriors and switchblade tonepot 
+Output:negative
+Input:a college story that works even without vulgarity, tone scenes, and cussing 
+Output:positive
+Input:vulgarity, tone scenes, and cussing 
+Output:negative
+Input:graphic tone may be what's attracting audiences to unfaithful, but gripping performances by lane and gere are what will keep them awake 
+Output:positive
+Input:to feel sorry for mick jagger's tone life 
+Output:negative
+","[5, 42, 84, 103, 130, 177, 199, 229, 255, 289, 350, 369, 386, 401, 444]","['Ġaround', 'Ġof', 'Ġteenage', 'Ġindeed', 'Ġof', 'Ġhas', 'Ġthe', 'ledged', 'Ġgay', 'Ġmakes', 'blade', 'Ġ,', 'Ġ,', 'graphic', 's']"
+Ġdelightful,Ġartist,"Input:its most delightful moments come when various characters express their quirky inner selves 
+Output:positive
+Input:this comic gem is as delightful as it is derivative . 
+Output:positive
+Input:as well its delightful cast -- 
+Output:positive
+Input:'s sweet , funny , charming , and completely delightful . 
+Output:positive
+Input:a treat -- a delightful , witty , improbable romantic comedy with a zippy jazzy score 
+Output:positive
+Input:some delightful work on indie projects 
+Output:positive
+Input:a delightful little film 
+Output:positive
+Input:of delightful hand shadows 
+Output:positive
+Input:in some delightful work on indie projects 
+Output:positive
+Input:is turning in some delightful work on indie projects 
+Output:positive
+Input:a delightful lark for history buffs 
+Output:positive
+Input:this delightful comedy 
+Output:positive
+Input:an intriguing look at the french film industry during the german occupation ; its most delightful moments come when various characters express their quirky inner selves 
+Output:positive
+Input:thought that the german film industry can not make a delightful comedy centering on food . 
+Output:positive
+Input:completely delightful 
+Output:positive
+","<|begin_of_text|>Input:its most artist moments come when various characters express their quirky inner selves 
+Output:positive
+Input:this comic gem is as artist as it is derivative. 
+Output:positive
+Input:as well its artist cast -- 
+Output:positive
+Input:'s sweet, funny, charming, and completely artist. 
+Output:positive
+Input:a treat -- a artist, witty, improbable romantic comedy with a zippy jazzy score 
+Output:positive
+Input:some artist work on indie projects 
+Output:positive
+Input:a artist little film 
+Output:positive
+Input:of artist hand shadows 
+Output:positive
+Input:in some artist work on indie projects 
+Output:positive
+Input:is turning in some artist work on indie projects 
+Output:positive
+Input:a artist lark for history buffs 
+Output:positive
+Input:this artist comedy 
+Output:positive
+Input:an intriguing look at the french film industry during the german occupation ; its most artist moments come when various characters express their quirky inner selves 
+Output:positive
+Input:thought that the german film industry can not make a artist comedy centering on food. 
+Output:positive
+Input:completely artist 
+Output:positive
+","[4, 26, 42, 61, 73, 95, 107, 118, 130, 146, 158, 171, 195, 223, 239]","['Ġmost', 'Ġas', 'Ġits', 'Ġcompletely', 'Ġa', 'ome', ':a', 'of', 'Ġsome', 'Ġsome', ':a', ':this', 'Ġmost', 'Ġa', 'pletely']"
+Ġbad,Ġinsight,"Input:is stiff or just plain bad . 
+Output:negative
+Input:the script 's bad ideas and awkwardness 
+Output:negative
+Input:so bad it does n't improve upon the experience of staring at a blank screen 
+Output:negative
+Input:much about the film is loopy and ludicrous ... that it could have been a hoot in a bad-movie way if the laborious pacing and endless exposition had been tightened . 
+Output:negative
+Input:a no-surprise series of explosions and violence while banderas looks like he 's not trying to laugh at how bad 
+Output:negative
+Input:an abyss of clichés , depression and bad alternative music 
+Output:negative
+Input:the funniest person in the film , which gives you an idea just how bad it was 
+Output:negative
+Input:genre a bad name 
+Output:negative
+Input:sinks into an abyss of clichés , depression and bad alternative music . 
+Output:negative
+Input:this film , like the similarly ill-timed antitrust , is easily as bad at a fraction the budget 
+Output:negative
+Input:hopes to camouflage how bad his movie is . 
+Output:negative
+Input:called best bad film you thought was going to be really awful but 
+Output:negative
+Input:sorority boys , which is as bad at it is cruel , 
+Output:negative
+Input:the whole movie is simply a lazy exercise in bad filmmaking that asks you to not only suspend your disbelief but your intelligence as well . 
+Output:negative
+Input:seriously bad film 
+Output:negative
+","<|begin_of_text|>Input:is stiff or just plain insight. 
+Output:negative
+Input:the script's insight ideas and awkwardness 
+Output:negative
+Input:so insight it doesn't improve upon the experience of staring at a blank screen 
+Output:negative
+Input:much about the film is loopy and ludicrous... that it could have been a hoot in a insight-movie way if the laborious pacing and endless exposition had been tightened. 
+Output:negative
+Input:a no-surprise series of explosions and violence while banderas looks like he's not trying to laugh at how insight 
+Output:negative
+Input:an abyss of clichés, depression and insight alternative music 
+Output:negative
+Input:the funniest person in the film, which gives you an idea just how insight it was 
+Output:negative
+Input:genre a insight name 
+Output:negative
+Input:sinks into an abyss of clichés, depression and insight alternative music. 
+Output:negative
+Input:this film, like the similarly ill-timed antitrust, is easily as insight at a fraction the budget 
+Output:negative
+Input:hopes to camouflage how insight his movie is. 
+Output:negative
+Input:called best insight film you thought was going to be really awful but 
+Output:negative
+Input:sorority boys, which is as insight at it is cruel, 
+Output:negative
+Input:the whole movie is simply a lazy exercise in insight filmmaking that asks you to not only suspend your disbelief but your intelligence as well. 
+Output:negative
+Input:seriously insight film 
+Output:negative
+","[7, 20, 33, 75, 120, 136, 161, 173, 192, 217, 234, 248, 274, 296, 323]","['Ġplain', 's', 'so', 'Ġa', 'Ġhow', 'Ġand', 'Ġhow', 'Ġa', 'Ġand', 'Ġas', 'Ġhow', 'Ġbest', 'Ġas', 'Ġin', 'iously']"
+Ġjoy,Ġro,"Input:alternately hilarious and sad , aggravating and soulful , scathing and joyous . 
+Output:positive
+Input:absolute joy 
+Output:positive
+Input:love a joy to behold 
+Output:positive
+Input:an absolute joy 
+Output:positive
+Input:is a monumental achievement in practically every facet of inept filmmaking : joyless , idiotic , annoying , heavy-handed , visually atrocious , and often downright creepy . 
+Output:negative
+Input:virtually joyless 
+Output:negative
+Input:of the joyous , turbulent self-discovery 
+Output:positive
+Input:are an absolute joy . 
+Output:positive
+Input:to a film about a family 's joyous life 
+Output:positive
+Input:the perkiness of witherspoon ( who is always a joy to watch , even when her material is not first-rate ) 
+Output:positive
+Input:swooping down on a string of exotic locales , scooping the whole world up in a joyous communal festival of rhythm 
+Output:positive
+Input:, joyous celebration 
+Output:positive
+Input:devoid of joy and energy 
+Output:negative
+Input:a colorful , joyous celebration of life ; 
+Output:positive
+Input:both inspiring and pure joy 
+Output:positive
+","<|begin_of_text|>Input:alternately hilarious and sad, aggravating and soulful, scathing and roous. 
+Output:positive
+Input:absolute ro 
+Output:positive
+Input:love a ro to behold 
+Output:positive
+Input:an absolute ro 
+Output:positive
+Input:is a monumental achievement in practically every facet of inept filmmaking : roless, idiotic, annoying, heavy-handed, visually atrocious, and often downright creepy. 
+Output:negative
+Input:virtually roless 
+Output:negative
+Input:of the roous, turbulent self-discovery 
+Output:positive
+Input:are an absolute ro. 
+Output:positive
+Input:to a film about a family's roous life 
+Output:positive
+Input:the perkiness of witherspoon ( who is always a ro to watch, even when her material is not first-rate ) 
+Output:positive
+Input:swooping down on a string of exotic locales, scooping the whole world up in a roous communal festival of rhythm 
+Output:positive
+Input:, roous celebration 
+Output:positive
+Input:devoid of ro and energy 
+Output:negative
+Input:a colorful, roous celebration of life ; 
+Output:positive
+Input:both inspiring and pure ro 
+Output:positive
+","[17, 27, 37, 49, 71, 100, 111, 128, 145, 167, 205, 218, 231, 243, 259]","['Ġand', ':absolute', 'Ġa', 'Ġabsolute', 'Ġ:', 'ually', 'Ġthe', 'Ġabsolute', 's', 'Ġa', 'Ġa', ':,', 'Ġof', 'Ġ,', 'Ġpure']"
+Ġstyle,Ġnext,"Input:so muddled , repetitive and ragged that it says far less about the horrifying historical reality than about the filmmaker 's characteristic style 
+Output:negative
+Input:the usual movie rah-rah , pleasantly and predictably delivered in low-key style by director michael apted and writer tom stoppard . 
+Output:positive
+Input:this is an exercise in chilling style , and twohy films the sub , inside and out , with an eye on preserving a sense of mystery . 
+Output:positive
+Input:the filmmaker 's characteristic style 
+Output:positive
+Input:zhuangzhuang creates delicate balance of style , text , and subtext that 's so simple and precise that anything discordant would topple the balance 
+Output:positive
+Input:with an obvious rapport with her actors and a striking style behind the camera , hélène angel is definitely a director to watch . 
+Output:positive
+Input:in chilling style 
+Output:positive
+Input:flashy editing style 
+Output:positive
+Input:trailer-trash style . 
+Output:negative
+Input:instead of making his own style , director marcus adams just copies from various sources -- good sources , bad mixture 
+Output:negative
+Input:have poignancy jostling against farce , thoughtful dialogue elbowed aside by one-liners , and a visual style that incorporates rotoscope animation for no apparent reason except , maybe , that it looks neat . 
+Output:negative
+Input:too bad the film 's story does not live up to its style 
+Output:negative
+Input:a visual style that incorporates rotoscope animation for no apparent reason except 
+Output:negative
+Input:that the e-graveyard holds as many good ideas as bad is the cold comfort that chin 's film serves up with style and empathy . 
+Output:positive
+Input:star/producer salma hayek and director julie taymor have infused frida with a visual style unique and inherent to the titular character 's paintings and in the process created a masterful work of art of their own . 
+Output:positive
+","<|begin_of_text|>Input:so muddled, repetitive and ragged that it says far less about the horrifying historical reality than about the filmmaker's characteristic next 
+Output:negative
+Input:the usual movie rah-rah, pleasantly and predictably delivered in low-key next by director michael apted and writer tom stoppard. 
+Output:positive
+Input:this is an exercise in chilling next, and twohy films the sub, inside and out, with an eye on preserving a sense of mystery. 
+Output:positive
+Input:the filmmaker's characteristic next 
+Output:positive
+Input:zhuangzhuang creates delicate balance of next, text, and subtext that's so simple and precise that anything discordant would topple the balance 
+Output:positive
+Input:with an obvious rapport with her actors and a striking next behind the camera, hélène angel is definitely a director to watch. 
+Output:positive
+Input:in chilling next 
+Output:positive
+Input:flashy editing next 
+Output:positive
+Input:trailer-trash next. 
+Output:negative
+Input:instead of making his own next, director marcus adams just copies from various sources -- good sources, bad mixture 
+Output:negative
+Input:have poignancy jostling against farce, thoughtful dialogue elbowed aside by one-liners, and a visual next that incorporates rotoscope animation for no apparent reason except, maybe, that it looks neat. 
+Output:negative
+Input:too bad the film's story does not live up to its next 
+Output:negative
+Input:a visual next that incorporates rotoscope animation for no apparent reason except 
+Output:negative
+Input:that the e-graveyard holds as many good ideas as bad is the cold comfort that chin's film serves up with next and empathy. 
+Output:positive
+Input:star/producer salma hayek and director julie taymor have infused frida with a visual next unique and inherent to the titular character's paintings and in the process created a masterful work of art of their own. 
+Output:positive
+","[27, 51, 75, 110, 128, 168, 193, 204, 215, 229, 279, 318, 327, 370, 401]","['Ġcharacteristic', '-key', 'Ġchilling', 'Ġcharacteristic', 'Ġof', 'Ġstriking', 'Ġchilling', 'Ġediting', '-trash', 'Ġown', 'Ġvisual', 'Ġits', 'Ġvisual', 'Ġwith', 'Ġvisual']"
+Ġmoving,Ġcharming,"Input:a deeply moving effort to put a human face on the travail of thousands of vietnamese 
+Output:positive
+Input:a moving , if uneven , success 
+Output:positive
+Input:strong themes of familial ties and spirituality that are powerful and moving without stooping to base melodrama 
+Output:positive
+Input:what could have easily become a cold , calculated exercise in postmodern pastiche winds up a powerful and deeply moving example of melodramatic moviemaking . 
+Output:positive
+Input:be funny , uplifting and moving , sometimes 
+Output:positive
+Input:warm , moving 
+Output:positive
+Input:a moving story 
+Output:positive
+Input:a solidly entertaining and moving family drama 
+Output:positive
+Input:a compassionate , moving portrait of an american ( and an america ) always reaching for something just outside his grasp 
+Output:positive
+Input:powerful and deeply moving example 
+Output:positive
+Input:because despite all the backstage drama , this is a movie that tells stories that work -- is charming , is moving 
+Output:positive
+Input:genuinely moving and 
+Output:positive
+Input:a terrible movie that some people will nevertheless find moving . 
+Output:negative
+Input:the film is also imbued with strong themes of familial ties and spirituality that are powerful and moving without stooping to base melodrama 
+Output:positive
+Input:ambitious , moving , and adventurous directorial debut 
+Output:positive
+","<|begin_of_text|>Input:a deeply charming effort to put a human face on the travail of thousands of vietnamese 
+Output:positive
+Input:a charming, if uneven, success 
+Output:positive
+Input:strong themes of familial ties and spirituality that are powerful and charming without stooping to base melodrama 
+Output:positive
+Input:what could have easily become a cold, calculated exercise in postmodern pastiche winds up a powerful and deeply charming example of melodramatic moviemaking. 
+Output:positive
+Input:be funny, uplifting and charming, sometimes 
+Output:positive
+Input:warm, charming 
+Output:positive
+Input:a charming story 
+Output:positive
+Input:a solidly entertaining and charming family drama 
+Output:positive
+Input:a compassionate, charming portrait of an american ( and an america ) always reaching for something just outside his grasp 
+Output:positive
+Input:powerful and deeply charming example 
+Output:positive
+Input:because despite all the backstage drama, this is a movie that tells stories that work -- is charming, is charming 
+Output:positive
+Input:genuinely charming and 
+Output:positive
+Input:a terrible movie that some people will nevertheless find charming. 
+Output:negative
+Input:the film is also imbued with strong themes of familial ties and spirituality that are powerful and charming without stooping to base melodrama 
+Output:positive
+Input:ambitious, charming, and adventurous directorial debut 
+Output:positive
+","[3, 25, 49, 85, 107, 119, 127, 140, 152, 181, 211, 221, 238, 265, 283]","['Ġdeeply', ':a', 'Ġand', 'Ġdeeply', 'Ġand', 'Ġ,', ':a', 'Ġand', 'Ġ,', 'Ġdeeply', 'Ġis', 'inely', 'Ġfind', 'Ġand', 'Ġ,']"
+Ġim,Ġdoes,"Input:to be released in imax format 
+Output:positive
+Input:just as the lousy tarantino imitations have subsided 
+Output:negative
+Input:of the impossibly long limbs and sweetly conspiratorial smile 
+Output:positive
+Input:the incredible imax sound system lets you feel the beat down to your toes 
+Output:positive
+Input:comes off as emotionally manipulative and sadly imitative of innumerable past love story derisions . 
+Output:negative
+Input:an impenetrable and insufferable ball of pseudo-philosophic twaddle 
+Output:negative
+Input:that is impenetrable and dull 
+Output:negative
+Input:throws away the goodwill the first half of his movie generates by orchestrating a finale that is impenetrable and dull 
+Output:negative
+Input:immense imax screen 
+Output:positive
+Input:emotionally manipulative and sadly imitative of innumerable past love story derisions 
+Output:negative
+Input:that should have been the ultimate imax trip 
+Output:positive
+Input:an impenetrable and insufferable ball 
+Output:negative
+Input:an imponderably stilted and self-consciously arty movie . 
+Output:negative
+Input:the ultimate imax trip 
+Output:positive
+Input:bother with a contemptible imitator starring a `` snl '' has-been acting like an 8-year-old channeling roberto benigni ? 
+Output:negative
+","<|begin_of_text|>Input:to be released in doesax format 
+Output:positive
+Input:just as the lousy tarantino doesitations have subsided 
+Output:negative
+Input:of the doespossibly long limbs and sweetly conspiratorial smile 
+Output:positive
+Input:the incredible doesax sound system lets you feel the beat down to your toes 
+Output:positive
+Input:comes off as emotionally manipulative and sadly doesitative of innumerable past love story derisions. 
+Output:negative
+Input:an doespenetrable and insufferable ball of pseudo-philosophic twaddle 
+Output:negative
+Input:that is doespenetrable and dull 
+Output:negative
+Input:throws away the goodwill the first half of his movie generates by orchestrating a finale that is doespenetrable and dull 
+Output:negative
+Input:immense doesax screen 
+Output:positive
+Input:emotionally manipulative and sadly doesitative of innumerable past love story derisions 
+Output:negative
+Input:that should have been the ultimate doesax trip 
+Output:positive
+Input:an doespenetrable and insufferable ball 
+Output:negative
+Input:an doesponderably stilted and self-consciously arty movie. 
+Output:negative
+Input:the ultimate doesax trip 
+Output:positive
+Input:bother with a contemptible doesitator starring a `` snl '' has-been acting like an 8-year-old channeling roberto benigni? 
+Output:negative
+","[6, 23, 37, 56, 84, 104, 130, 161, 176, 192, 216, 227, 244, 267, 283]","['Ġin', 'antino', 'Ġthe', 'Ġincredible', 'Ġsadly', 'an', 'Ġis', 'Ġis', 'ense', 'Ġsadly', 'Ġultimate', 'an', 'an', 'Ġultimate', 'ible']"
