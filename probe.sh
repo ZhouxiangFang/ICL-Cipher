@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -A mdredze1_gpu
+#SBATCH -A mdredze80_gpu
 #SBATCH --partition ica100
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1

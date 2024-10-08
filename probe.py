@@ -30,9 +30,11 @@ def logit_lens(model, hidden_states, positions, target_id):
         logits = torch.softmax(matrix2detect, dim=-1)
         ranks = []
         for i in range(len(positions)):
-            logit = logits.cpu()[i,:]
+            logits_cpu = logits.float().detach().cpu()
+            logit = logits_cpu[i,:]
             token_id_value = logit[target_id].item()
-            sorted_tensor = np.sort(logit.float().detach().cpu())[::-1]
+            sorted_tensor = np.sort(logit)[::-1]
+            # sorted_tensor = np.sort(logit.float().detach().cpu())[::-1]
             rank = np.where(sorted_tensor == token_id_value)[0][0] + 1
             ranks.append(rank)
         rank_data.append(ranks)
@@ -59,7 +61,7 @@ def main():
     )
     parser.add_argument(
         "--top",
-        default='50',
+        default='30',
         type=int,
         help="explore top n most popular tokens",
     )
@@ -213,8 +215,8 @@ def main():
         substituted_token_ranks = np.array(logit_lens(model, hidden_states, positions, substituted_token_id)).astype(np.float64)
         original_token_ranks = np.array(logit_lens(model, hidden_states, positions, original_token_id)).astype(np.float64)
         
-        substituted_ranks.append(substituted_token_ranks.astype(np.int))
-        original_ranks.append(original_token_ranks.astype(np.int))
+        substituted_ranks.append(substituted_token_ranks.astype(np.int64))
+        original_ranks.append(original_token_ranks.astype(np.int64))
 
         if substituted_rank_total is None:
             substituted_rank_total = substituted_token_ranks
@@ -227,17 +229,17 @@ def main():
             original_rank_total += original_token_ranks
 
     df = pd.DataFrame({
-        "Original Token": orginal_tokens,
-        "substituted TOken": substituted_tokens,
-        "Original Text": original_texts,
-        "substituted Text": substituted_texts,
-        "Probing Position": probe_positions,
-        "Probing_tokens": probe_tokens,
+        "original token": orginal_tokens,
+        "substituted token": substituted_tokens,
+        "original text": original_texts,
+        "substituted text": substituted_texts,
+        "probing position": probe_positions,
+        "probing_tokens": probe_tokens,
         "substituted_ranks": substituted_ranks,
-        "Original_ranks": original_ranks
+        "original_ranks": original_ranks
     })
 
-    csv_name = f'csv/{args.dataset}_top{args.top}_{args.fewshot}-shot_{args.sub}_subsititution'
+    csv_name = f'csv/{args.dataset}_top{args.top}tokens_{args.fewshot}-shot_{args.sub}_subsititution'
     if args.reverse:
         csv_name += '_reverse'
     csv_name += '.csv'
@@ -250,17 +252,17 @@ def main():
     title = f'rank of substituted token - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=80000, vmin=0, center=None)
 
     title = f'rank of original token - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=original_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=original_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=80000, vmin=0, center=None)
 
     title = f'original token rank - substituted token rank - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=original_rank_total - substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=None, vmin=None, center=0)
+    draw_heatmap(rank_data=original_rank_total - substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=20000, vmin=-20000, center=0)
 
 if __name__ == "__main__":
     main()
