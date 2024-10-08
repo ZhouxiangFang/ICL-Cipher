@@ -26,7 +26,7 @@ def logit_lens(model, hidden_states, positions, target_id):
 
     for i in range(32):
         matrix = model.lm_head(hidden_states[i][0]) # length * Vocab
-        matrix2detect = matrix[positions,:] # shuffled positions * Vocab
+        matrix2detect = matrix[positions,:] # substituted positions * Vocab
         logits = torch.softmax(matrix2detect, dim=-1)
         ranks = []
         for i in range(len(positions)):
@@ -45,7 +45,7 @@ def draw_heatmap(rank_data, title, annot=False, figsize=(18, 12), cmap='coolwarm
         plt.gca().collections[0].colorbar.ax.invert_yaxis()
     plt.title(title)
     ax.invert_yaxis()
-    plt.xlabel('The i-th occurence of shuffled token')
+    plt.xlabel('The i-th occurence of substituted token')
     plt.ylabel('layer')
     plt.savefig(os.path.join('fig', title))
 
@@ -70,10 +70,10 @@ def main():
         help="few-shot number",
     )
     parser.add_argument(
-        "--shuffle",
-        default='original, bijective, random',
+        "--sub",
+        default='no, bijective, random',
         type=str,
-        help="shuffling stragety",
+        help="substitution stragety",
     )
     parser.add_argument(
         "--reverse",
@@ -84,7 +84,7 @@ def main():
 
     args = parser.parse_args()
     print(f'dataset: {args.dataset}')
-    print(f'shuffling stragety: {args.shuffle}')
+    print(f'substitution stragety: {args.sub}')
     print(f'number of top tokens: {args.top}')
     print(f'fewshot: {args.fewshot}')
     print('Revsere Input and Output' if args.reverse else 'Not Reversed')
@@ -140,22 +140,24 @@ def main():
     # print(len(sorted_demo_dict[is_id]))
 
     orginal_tokens = []
-    shuffled_tokens = []
+    substituted_tokens = []
     original_texts = []
-    shuffled_texts = []
+    substituted_texts = []
     probe_positions = []
     probe_tokens =[]
+    original_ranks = []
+    substituted_ranks = []
     original_rank_total = None
-    shuffled_rank_total = None
+    substituted_rank_total = None
     for original_token_num in tqdm(top_token_nums, total=args.top):
-        shuffled_token_num = random.choice(remaining_token_nums)
+        substituted_token_num = random.choice(remaining_token_nums)
         original_token_id = backup_top_tokens[original_token_num][0]
-        shuffled_token_id = backup_top_tokens[shuffled_token_num][0]
+        substituted_token_id = backup_top_tokens[substituted_token_num][0]
 
         original_token = tokenizer.convert_ids_to_tokens(original_token_id)
-        shuffled_token = tokenizer.convert_ids_to_tokens(shuffled_token_id)
+        substituted_token = tokenizer.convert_ids_to_tokens(substituted_token_id)
         orginal_tokens.append(original_token)
-        shuffled_tokens.append(shuffled_token)
+        substituted_tokens.append(substituted_token)
         # sample demos
         demo_indexs = random.sample(backup_top_tokens[original_token_num][1], args.fewshot)
         
@@ -174,20 +176,20 @@ def main():
         original_texts.append(original_text)
 
         input_ids = tokenizer.encode(original_text)
-        # shuffled the original input text
+        # substitute the original input text
         tokens = []
         positions = []
         for i in range(len(input_ids)):
             if input_ids[i] == original_token_id:
                 positions.append(i-1)
                 tokens.append(tokenizer.convert_ids_to_tokens(input_ids[i-1]))
-                if args.shuffle == 'bijective':
-                    input_ids[i] = shuffled_token_id
-                elif args.shuffle == 'random': # randomly select a token
+                if args.sub == 'bijective':
+                    input_ids[i] = substituted_token_id
+                elif args.sub == 'random': # randomly select a token
                     input_ids[i] = backup_top_tokens[random.choice(remaining_token_nums)][0]
                 else:
-                    if args.shuffle != 'original':
-                        raise ValueError(f'Invalid shuffling: {args.shuffle}')
+                    if args.sub != 'no':
+                        raise ValueError(f'Invalid substitution: {args.sub}')
                 if len(positions) >= args.fewshot:
                     break
         
@@ -200,21 +202,24 @@ def main():
             print('\n')
         probe_tokens.append(tokens)
         probe_positions.append(positions)
-        shuffled_text = tokenizer.decode(input_ids, add_special_tokens=False)
-        shuffled_texts.append(shuffled_text)
-        # start probing w/ logit lens for original token and shuffled token
-        encoded = tokenizer(shuffled_text, return_tensors='pt')
+        substituted_text = tokenizer.decode(input_ids, add_special_tokens=False)
+        substituted_texts.append(substituted_text)
+        # start probing w/ logit lens for original token and substituted token
+        encoded = tokenizer(substituted_text, return_tensors='pt')
         model_inputs = encoded.to('cuda')
         outputs = model(**model_inputs, output_hidden_states=True)
         hidden_states = outputs.hidden_states
 
-        shuffled_token_ranks = np.array(logit_lens(model, hidden_states, positions, shuffled_token_id)).astype(np.float64)
+        substituted_token_ranks = np.array(logit_lens(model, hidden_states, positions, substituted_token_id)).astype(np.float64)
         original_token_ranks = np.array(logit_lens(model, hidden_states, positions, original_token_id)).astype(np.float64)
         
-        if shuffled_rank_total is None:
-            shuffled_rank_total = shuffled_token_ranks
+        substituted_ranks.append(substituted_token_ranks.astype(np.int))
+        original_ranks.append(original_token_ranks.astype(np.int))
+
+        if substituted_rank_total is None:
+            substituted_rank_total = substituted_token_ranks
         else:
-            shuffled_rank_total += shuffled_token_ranks
+            substituted_rank_total += substituted_token_ranks
         
         if original_rank_total is None:
             original_rank_total = original_token_ranks
@@ -223,37 +228,39 @@ def main():
 
     df = pd.DataFrame({
         "Original Token": orginal_tokens,
-        "Shuffled TOken": shuffled_tokens,
+        "substituted TOken": substituted_tokens,
         "Original Text": original_texts,
-        "Shuffled Text": shuffled_texts,
+        "substituted Text": substituted_texts,
         "Probing Position": probe_positions,
-        "Probing_tokens": probe_tokens
+        "Probing_tokens": probe_tokens,
+        "substituted_ranks": substituted_ranks,
+        "Original_ranks": original_ranks
     })
 
-    csv_name = f'csv/{args.dataset}_top{args.top}_{args.fewshot}-shot_{args.shuffle}_shuffling'
+    csv_name = f'csv/{args.dataset}_top{args.top}_{args.fewshot}-shot_{args.sub}_subsititution'
     if args.reverse:
         csv_name += '_reverse'
     csv_name += '.csv'
     df.to_csv(csv_name, index=False)
     
-    shuffled_rank_total /= args.top
+    substituted_rank_total /= args.top
     original_rank_total /= args.top
     figsize=(24, 16)
     
-    title = f'rank of shuffled token - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
+    title = f'rank of substituted token - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=shuffled_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
+    draw_heatmap(rank_data=substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
 
-    title = f'rank of original token - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
+    title = f'rank of original token - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
     draw_heatmap(rank_data=original_rank_total, title=title, figsize=figsize, cmap='coolwarm_r', bar_reverse=True, annot=True, vmax=None, vmin=None, center=None)
 
-    title = f'original token rank - shuffled token rank - {args.dataset} top{args.top} {args.fewshot}-shot {args.shuffle}_shuffling'
+    title = f'original token rank - substituted token rank - {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution'
     if args.reverse:
         title += ' reverse'
-    draw_heatmap(rank_data=original_rank_total - shuffled_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=None, vmin=None, center=0)
+    draw_heatmap(rank_data=original_rank_total - substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=None, vmin=None, center=0)
 
 if __name__ == "__main__":
     main()
