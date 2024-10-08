@@ -67,7 +67,7 @@ def main():
     )
     parser.add_argument(
         "--fewshot",
-        default='25',
+        default='15',
         type=int,
         help="few-shot number",
     )
@@ -215,8 +215,8 @@ def main():
         substituted_token_ranks = np.array(logit_lens(model, hidden_states, positions, substituted_token_id)).astype(np.float64)
         original_token_ranks = np.array(logit_lens(model, hidden_states, positions, original_token_id)).astype(np.float64)
         
-        substituted_ranks.append(substituted_token_ranks.astype(np.int64))
-        original_ranks.append(original_token_ranks.astype(np.int64))
+        substituted_ranks.append(substituted_token_ranks.astype(np.int64).tolist())
+        original_ranks.append(original_token_ranks.astype(np.int64).tolist())
 
         if substituted_rank_total is None:
             substituted_rank_total = substituted_token_ranks
@@ -263,6 +263,20 @@ def main():
     if args.reverse:
         title += ' reverse'
     draw_heatmap(rank_data=original_rank_total - substituted_rank_total, title=title, figsize=figsize, cmap='coolwarm', bar_reverse=False, annot=True, vmax=20000, vmin=-20000, center=0)
+
+    x = list(range(1, args.fewshot+1))
+
+    y_sub = substituted_rank_total[-1,:]
+    y_o = original_rank_total[-1,:]
+
+    plt.xlabel('The i-th occurence of substituted token')
+    plt.plot(x, y_sub, label='substituted token rank', color='seagreen')
+    plt.plot(x, y_o, label='original token rank', color='cornflowerblue')
+
+    plot_title = f'last layer token ranks {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution '
+    plt.title(plot_title)
+    plt.legend()
+    plt.savefig(f'fig/{plot_title}.png')
 
 if __name__ == "__main__":
     main()
