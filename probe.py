@@ -41,6 +41,7 @@ def logit_lens(model, hidden_states, positions, target_id):
     return rank_data
 
 def draw_heatmap(rank_data, title, annot=False, figsize=(18, 12), cmap='coolwarm', bar_reverse=False, vmax=None, vmin=None, center=None):
+    plt.clf()
     plt.figure(figsize=figsize)
     ax = sns.heatmap(rank_data, annot=annot, cmap=cmap, linewidths=0.0, vmax=vmax, vmin=vmin, center=center)
     if bar_reverse:
@@ -269,9 +270,12 @@ def main():
     y_sub = substituted_rank_total[-1,:]
     y_o = original_rank_total[-1,:]
 
-    plt.xlabel('The i-th occurence of substituted token')
-    plt.plot(x, y_sub, label='substituted token rank', color='seagreen')
+    plt.clf()
+    plt.figure(figsize=(12, 9))
+    plt.plot(x, y_sub, label='substituted token rank', color='red')
     plt.plot(x, y_o, label='original token rank', color='cornflowerblue')
+    plt.xlabel('The i-th occurence of substituted token')
+    plt.ylabel('rank')
 
     plot_title = f'last layer token ranks {args.dataset} top{args.top} tokens {args.fewshot}-shot {args.sub}_substitution '
     plt.title(plot_title)
